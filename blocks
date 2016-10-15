@@ -1,0 +1,109 @@
+# i3blocks config file
+#
+# List of valid properties:
+#
+# align
+# color
+# background
+# border
+# command
+# full_text
+# instance
+# interval
+# label
+# min_width
+# name
+# separator
+# separator_block_width
+# short_text
+# signal
+# urgent
+
+#Global
+command=$I3_CONF/scripts/$BLOCK_NAME
+separator_block_width=15
+markup=none
+color=#bce4f2
+align=center
+
+[greeting]
+command=echo "Hello, stranger. Owner is @whiteobscurity >> "
+interval=once
+
+#Blocks
+[uptime]
+label=uptime
+command=uptime | awk '{ print $1 }'
+interval=2
+
+[load_average]
+label=load
+interval=2
+separator=false
+
+[cpu_usage]
+label=cpu
+interval=10
+min_width=CPU: 100.00%
+separator=false
+
+[memory]
+label=ram
+separator=false
+interval=10
+
+[memory]
+label=swap
+instance=swap
+interval=30
+
+[home_free]
+label=/home:
+interval=30
+min_width=85
+
+[root_free]
+label=/:
+interval=30
+min_width=60
+
+#[wifi]
+#label=wifi
+#instance=wlp2s0
+#interval=10
+#min_width=60
+#separator=false
+
+#[bandwidth]
+#instance=wlp2s0
+#interval=4
+#min_width=130
+
+[network]
+interval=4
+min_width=160
+
+[battery]
+command=$HOME/.config/i3/scripts/battery.py
+interval=5
+markup=pango
+min_width=50
+
+[volume]
+label=
+color=#ffff00
+interval=once
+signal=1
+min_width=43
+
+[brightness]
+label=bright
+command=printf "%.0f" $(xbacklight -get)
+interval=once
+signal=2
+
+[time]
+command=date '+%Y-%m-%d %H:%M:%S'
+interval=5
+min_width=150
+color=#ffffff
