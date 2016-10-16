@@ -30,7 +30,7 @@ font pango:monospace 8
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec lxterminal
+bindsym $mod+Return exec termite
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -76,9 +76,9 @@ bindsym $mod+v split v
 bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
-bindsym $mod+s layout stacking
-bindsym $mod+w layout tabbed
-bindsym $mod+e layout toggle split
+#bindsym $mod+s layout stacking
+#bindsym $mod+w layout tabbed
+#bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
@@ -159,7 +159,10 @@ bindsym $mod+r mode "resize"
 #my custom configuration:
 #
 
-
+for_window [class="^.*"] border pixel 0
+gaps inner 4
+gaps outer 0
+smart_gaps on
 
 set $bg-color            #1d1f21
 set $active-bg-color     #373b41
@@ -169,24 +172,26 @@ set $urgent-bg-color     #cc6666
 
 # window colors
 #                       border               background         text                 indicator
-client.focused          $active-bg-color     $active-bg-color          $text-color          $inactive-text-color
+client.focused          $active-bg-color     $active-bg-color   $text-color          $inactive-text-color
 client.unfocused        $bg-color            $bg-color          $inactive-text-color $inactive-text-color
-client.focused_inactive $bg-color     $bg-color          $text-color          $inactive-text-color
+client.focused_inactive $bg-color	     $bg-color          $text-color          $inactive-text-color
 client.urgent           $urgent-bg-color     $urgent-bg-color   $text-color          $inactive-text-color
 
 bar {
-	separator_symbol "::"
-	font pango: DejaVu Sans Mono, Awesome 8
+	height 23
+	i3bar_command i3bar -t
+	separator_symbol "_"
+	font pango: DejaVu Sans Mono, Awesome 10
 	#font pango: Beccaria 10
         status_command i3blocks -c $I3_CONF/blocks
         position bottom
         tray_output primary
         colors {
-            background #000000
+            background #000000aa
             separator #75AF96
             #                  border             background         text
             focused_workspace  $active-bg-color   $bg-color          $text-color
-            inactive_workspace $bg-color          $bg-color          $inactive-text-color
+            inactive_workspace $bg-color          $active-bg-color   $inactive-text-color
             urgent_workspace   $urgent-bg-color   $urgent-bg-color   $text-color
         }
 }
@@ -203,8 +208,8 @@ bindsym XF86AudioMute exec "amixer sset Master,0 toggle; exec pkill -RTMIN+1 i3b
 
 
 # Sreen brightness controls
-bindsym XF86MonBrightnessUp exec "xbacklight -inc 7; exec pkill -RTMIN+2 i3blocks"
-bindsym XF86MonBrightnessDown exec "xbacklight -dec 7; exec pkill -RTMIN+2 i3blocks"
+bindsym XF86MonBrightnessUp exec "xbacklight -inc 5; exec pkill -RTMIN+2 i3blocks"
+bindsym XF86MonBrightnessDown exec "xbacklight -dec 5; exec pkill -RTMIN+2 i3blocks"
 
 # start rofi (a program launcher)
 #bindsym $mod+d exec rofi -show run # $(/home/kirill/.config/i3/i3-color-rofi)
@@ -223,13 +228,14 @@ bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 
 # printscreen
-bindsym Print exec white-screenshot
-bindsym Alt+Print exec "white-screenshot -w"
-bindsym Shift+Print exec "white-screenshot -a"
+bindsym --release $mod+s exec november screen
+bindsym --release Shift+Print exec november selection
+bindsym --release Alt+Print exec november window
 
 #
 # run programs
-exec lxterminal
+exec termite
 exec Telegram
 exec yandex-browser-beta
 exec setwall ~/Yandex.Disk/Documents/Wallpapers/architecture_wallpaper.jpg
+exec compton

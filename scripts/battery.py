@@ -30,6 +30,7 @@ else:
     state = state_batteries[0]
     commasplitstatus = commasplitstatus_batteries[0]
     percentleft = int(sum(percentleft_batteries)/len(percentleft_batteries))
+
     # stands for charging
     FA_LIGHTNING = "<span color='yellow'><span font='FontAwesome'>\uf0e7</span></span>"
 

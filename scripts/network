@@ -6,7 +6,11 @@ nettype=$(echo $str | awk '{ print $2; }' )
 netname=$(echo $str | awk '{ print $4; }' )
 result=''
 if [[ ! ${#str} < 0 ]]; then 
-	result+="$nettype $netname"
+	if [[ $interface == w* ]]; then
+		result+=" $netname"
+	else
+		result+="$nettype $netname"
+	fi
 else
 	echo -n net down
 	return 0

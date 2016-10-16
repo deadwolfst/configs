@@ -1,33 +1,16 @@
-# i3blocks config file
-#
-# List of valid properties:
-#
-# align
-# color
-# background
-# border
-# command
-# full_text
-# instance
-# interval
-# label
-# min_width
-# name
-# separator
-# separator_block_width
-# short_text
-# signal
-# urgent
-
 #Global
 command=$I3_CONF/scripts/$BLOCK_NAME
 separator_block_width=15
-markup=none
-color=#bce4f2
+separator=false
+color=#d1c4bb
 align=center
+border_bottom=0
+border_left=0
+border_right=0
+border_top=3
 
 [greeting]
-command=echo "Hello, stranger. Owner is @whiteobscurity >> "
+command=echo "Owner is @whiteobscurity >> "
 interval=once
 
 #Blocks
@@ -35,63 +18,74 @@ interval=once
 label=uptime
 command=uptime | awk '{ print $1 }' | cut -c 1-5
 interval=60
+border=#8d5670
 
 [load_average]
 label=load
 interval=2
 separator=false
+border=#8d5670
 
 [cpu_usage]
 label=cpu
 interval=10
 min_width=CPU: 100.00%
 separator=false
+border=#8d5670
 
 [memory]
 label=ram
 separator=false
 interval=10
+border=#8d5670
 
 [memory]
 label=swap
 instance=swap
 interval=30
+border=#8d5670
 
 [home_free]
 label=/home:
 interval=30
 min_width=85
+border=#8d5670
 
 [root_free]
 label=/:
 interval=30
 min_width=60
+border=#8d5670
 
 [network]
 interval=4
 min_width=160
+border=#8d5670
 
 [battery]
-command=$HOME/.config/i3/scripts/battery.py
-interval=5
+#command=$HOME/.config/i3/scripts/battery.py
+interval=persist
 markup=pango
 min_width=50
+border=#8d5670
 
 [volume]
 label=
-color=#ffff00
 interval=once
 signal=1
 min_width=43
+border=#8d5670
 
 [brightness]
-label=bright
+label=
 command=printf "%.0f" $(xbacklight -get)
 interval=once
 signal=2
+border=#8d5670
 
 [time]
-command=date '+%Y-%m-%d %H:%M:%S'
+command=date '+%d.%m.%Y %H:%M:%S'
 interval=5
 min_width=150
 color=#ffffff
+border=#786b60
