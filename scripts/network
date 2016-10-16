@@ -5,17 +5,6 @@ interface=$(echo $str | awk '{ print $1; }' )
 nettype=$(echo $str | awk '{ print $2; }' )
 netname=$(echo $str | awk '{ print $4; }' )
 result=''
-if [[ ! ${#str} < 0 ]]; then 
-	if [[ $interface == w* ]]; then
-		result+=" $netname"
-	else
-		result+="$nettype $netname"
-	fi
-else
-	echo -n net down
-	return 0
-fi
-echo -n "$result "
 
 #WI-FI
 color="#00FF00"
@@ -24,13 +13,26 @@ if [[ $interface == w* ]]; then
 	[[ ! -d /sys/class/net/${INTERFACE}/wireless ]] ||
 	    [[ "$(cat /sys/class/net/$INTERFACE/operstate)" = 'down' ]] && exit
 	QUALITY=$(grep $INTERFACE /proc/net/wireless | awk '{ print int($3 * 100 / 70) }')
-	echo -n "$QUALITY% "
 	if [[ $QUALITY -ge 80 ]]; then color="#00FF00"
 	elif [[ $QUALITY -ge 60 ]]; then color="#FFF600"
 	elif [[ $QUALITY -ge 40 ]]; then color="#FFAE00"
 	else color="#FF0000"
 	fi
 fi
+
+#PRINT $netname and color
+if [[ ! ${#str} < 0 ]]; then 
+	if [[ $interface == w* ]]; then
+		#if you wish you may print $QUALITY with this
+		result+="<span color='"$color"'></span> $netname"
+	else
+		result+="$nettype $netname"
+	fi
+else
+	echo -n net down
+	return 0
+fi
+echo -n "$result "
 
 echo -n ""
 
@@ -83,6 +85,3 @@ fi
 #PRINT short_form
 echo ""
 echo "$result "
-
-#PRINT COLOR
-echo "$color"

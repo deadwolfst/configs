@@ -1,5 +1,6 @@
 #Global
 command=$I3_CONF/scripts/$BLOCK_NAME
+background=#191919aa
 separator_block_width=15
 separator=false
 color=#d1c4bb
@@ -11,14 +12,16 @@ border_top=3
 
 [greeting]
 command=echo "Owner is @whiteobscurity >> "
+background=none
 interval=once
 
 #Blocks
 [uptime]
-label=uptime
+label= uptime
 command=uptime | awk '{ print $1 }' | cut -c 1-5
 interval=60
-border=#8d5670
+border_left=2
+border=#476d59
 
 [load_average]
 label=load
@@ -31,7 +34,7 @@ label=cpu
 interval=10
 min_width=CPU: 100.00%
 separator=false
-border=#8d5670
+border=#6b6f4f
 
 [memory]
 label=ram
@@ -58,9 +61,10 @@ min_width=60
 border=#8d5670
 
 [network]
+markup=pango
 interval=4
 min_width=160
-border=#8d5670
+border=#57567d
 
 [battery]
 #command=$HOME/.config/i3/scripts/battery.py
