@@ -16,6 +16,8 @@ my $t_warn = 50;
 my $t_crit = 80;
 my $cpu_usage = -1;
 my $decimals = 2;
+red='#FF0000'
+orange='#FFFC00'
 
 sub help {
     print "Usage: cpu_usage [-w <warning>] [-c <critical>] [-d <decimals>]\n";
@@ -45,15 +47,15 @@ close(MPSTAT);
 $cpu_usage eq -1 and die 'Can\'t find CPU information';
 
 # Print short_text, full_text
-printf "%.${decimals}f%%\n", $cpu_usage;
-printf "%.${decimals}f%%\n", $cpu_usage;
+printf "%.${decimals}f\n", $cpu_usage;
+printf "%.${decimals}f\n", $cpu_usage;
 
 # Print color, if needed
 if ($cpu_usage >= $t_crit) {
-    print "#FF0000\n";
+    print "$red\n";
     exit 33;
 } elsif ($cpu_usage >= $t_warn) {
-    print "#FFFC00\n";
+    print "$orange\n";
 }
 
 exit 0;

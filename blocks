@@ -1,6 +1,6 @@
 #Global
 command=$I3_CONF/scripts/$BLOCK_NAME
-background=#191919aa
+background=#292929bb
 separator_block_width=15
 separator=false
 color=#d1c4bb
@@ -20,7 +20,7 @@ interval=once
 label= uptime
 command=uptime | awk '{ print $1 }' | cut -c 1-5
 interval=60
-border_left=2
+border_left=1
 border=#476d59
 
 [load_average]

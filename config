@@ -218,7 +218,7 @@ bindsym XF86MonBrightnessDown exec "xbacklight -dec 5; exec pkill -RTMIN+2 i3blo
 bindsym $mod+semicolon exec physlock
 
 # Touchpad controls
-bindsym XF86TouchpadToggle exec touchpad-toggle # toggle touchpad
+bindsym XF86TouchpadToggle exec toggle-touchpad
 
 # Media player controls
 bindsym XF86AudioPlay exec playerctl play-pause
