@@ -13,16 +13,19 @@ i3status -c $I3_CONF/status | while IFS= read -r line; do
         [[ -z "${STATE}" ]] && STATE="??:??:00"
 
         STATE="${STATE:0:-3}"
-        STATE=" (${STATE})"
+        STATE="(${STATE})"
+    }
+
+    [[ "${PARTS[0]}" = "BAT" ]] && [[ "${CHARGE}" < 3 ]] && {
+        systemctl hibernate
     }
 
     LEVEL=$(( (CHARGE - 1) / 20 ))
     ICON="f$(( 244 - LEVEL ))"
 
-    [[ CHARGE < 3 ]] && systectl hibernate
-    echo -e "  \u${ICON}  ${CHARGE}${STATE} "
+    echo -e " \u${ICON} ${CHARGE} ${STATE} ${PARTS[3]}"
 
-    [[ "${LEVEL}" = "0" ]] && {
-        [[ -z "${STATE}" ]] || i3-msg "fullscreen disable"
-    }
+    #[[ "${LEVEL}" = "0" ]] && {
+    #    [[ -z "${STATE}" ]] || i3-msg "fullscreen disable"
+    #}
 done
