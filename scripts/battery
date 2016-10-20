@@ -19,6 +19,7 @@ i3status -c $I3_CONF/status | while IFS= read -r line; do
     LEVEL=$(( (CHARGE - 1) / 20 ))
     ICON="f$(( 244 - LEVEL ))"
 
+    [[ CHARGE < 3 ]] && systectl hibernate
     echo -e "  \u${ICON}  ${CHARGE}${STATE} "
 
     [[ "${LEVEL}" = "0" ]] && {
