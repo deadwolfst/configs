@@ -239,3 +239,4 @@ exec Telegram
 exec yandex-browser-beta
 exec setwall ~/Yandex.Disk/Documents/Wallpapers/architecture_wallpaper.jpg
 exec compton
+exec /usr/lib/notification-daemon-1.0/notification-daemon

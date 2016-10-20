@@ -1,3 +1,7 @@
+BATTERY_WARN=10
+BATTERY_SUPERWARN=5
+BATTERY_CRITICAL=2
+BATTERY_NOTIFICATION_SENDED=1
 i3status -c $I3_CONF/status | while IFS= read -r line; do
     PARTS=($line)
 
@@ -16,14 +20,35 @@ i3status -c $I3_CONF/status | while IFS= read -r line; do
         STATE="(${STATE})"
     }
 
-    [[ "${PARTS[0]}" = "BAT" ]] && [[ "${CHARGE}" < 3 ]] && {
+    if ( ( [[ "${PARTS[0]}" = "CHR" ]] || [ "${CHARGE}" -gt $BATTERY_WARN ] ) && [[ ! ${BATTERY_NOTIFICATION_SENDED} > 0 ]] ); then
+        BATTERY_NOTIFICATION_SENDED=1
+    fi
+
+    #Battery warn
+    [[ "${PARTS[0]}" = "BAT" ]] && [[ "${CHARGE}" -le $BATTERY_WARN ]] && [[ ${BATTERY_NOTIFICATION_SENDED} > 0 ]] && {
+        notify-send --icon=gtk-info "Warning battery charge" "Battery charge is very small!"
+        BATTERY_NOTIFICATION_SENDED=0
+    }
+
+    #Battery superwarn
+    [[ "${PARTS[0]}" = "BAT" ]] && [ "${CHARGE}" -le $BATTERY_SUPERWARN ] && [[ ${BATTERY_NOTIFICATION_SENDED} > 0 ]] && {
+        notify-send --icon=gtk-info "Warning battery charge" "Battery charge is very small!"
+        BATTERY_NOTIFICATION_SENDED=0
+    }
+
+    #Hibernate system
+    [[ "${PARTS[0]}" = "BAT" ]] && [ $CHARGE -le $BATTERY_CRITICAL ] && {
+        #echo hell
         systemctl hibernate
     }
 
     LEVEL=$(( (CHARGE - 1) / 20 ))
     ICON="f$(( 244 - LEVEL ))"
+    CONS=""
 
-    echo -e " \u${ICON} ${CHARGE} ${STATE} ${PARTS[3]}"
+    #Print battery state
+    [[ "${PARTS[0]}" = "BAT" ]] && CONS=" ${PARTS[3]}"
+    echo -e " \u${ICON} ${CHARGE} ${STATE}${CONS}"
 
     #[[ "${LEVEL}" = "0" ]] && {
     #    [[ -z "${STATE}" ]] || i3-msg "fullscreen disable"
