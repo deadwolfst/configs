@@ -1,2 +1,7 @@
 i3/scripts/bin/last_shot
 i3/scripts/bin/last_cast
+yandex-browser/*
+yandex-browser-beta/*
+yandex-disk/*
+wine/*
+VirtualBox/*

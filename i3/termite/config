@@ -1,0 +1,9 @@
+[options]
+font = Droid Sans Mono 14
+#font = Ubuntu Mono derivative Powerline 14
+#font = Terminess Powerline 14
+#font = Terminus 14
+
+[colors]
+foreground = #d1c4cb
+background  = rgba(0, 0, 0, 0.7)
