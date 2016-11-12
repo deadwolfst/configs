@@ -1,0 +1,10 @@
+#HOW config CREATES
+
+#There is no include mechanism in i3 itself. But you can create the config file everytime X starts from templates.
+#Something like this as a wrapper-script around i3 should work.
+#update_i3_config:
+
+#!/bin/bash
+cat $HOME/.config/i3/config.base \
+    $HOME/.config/i3/config.local > $HOME/.config/i3/config
+exec /usr/bin/i3

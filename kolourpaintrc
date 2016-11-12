@@ -1,14 +1,20 @@
 [General Settings]
 Color Similarity=0
 First Time=false
-Last Document Size=40,45
+Last Document Size=68,68
 Open Images in the Same Window=false
 
+[KFileDialog Settings]
+Height 1080=540
+Recent Files[$e]=mark2.png,file:$HOME/cloud/Documents/Univer/modeling/model2.png,file:$HOME/cloud/Documents/Univer/modeling/mark2.png
+Recent URLs[$e]=file:$HOME/cloud/Documents/Univer/modeling/
+Width 1920=960
+
 [MainWindow]
-Height 1080=192
-State=AAAA/wAAAAD9AAAAAQAAAAMAAAKjAAAAO/wBAAAAAfsAAAASAEMAbwBsAG8AcgAgAEIAbwB4AQAAAFkAAAKjAAACDQD///8AAAKjAAAAOgAAAAQAAAAEAAAAAQAAAAL8AAAAAgAAAAAAAAABAAAAEABUAG8AbwBsACAAQgBvAHgDAAAAAP////8AAAAAAAAAAAAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAABYAdABlAHgAdABUAG8AbwBsAEIAYQByAAAAAAD/////AAAAAAAAAAA=
+Height 1080=1076
+State=AAAA/wAAAAD9AAAAAQAAAAMAAAcjAAAAY/wBAAAAAfsAAAASAEMAbwBsAG8AcgAgAEIAbwB4AQAAAFkAAAcjAAACDQD///8AAAcjAAADhAAAAAQAAAAEAAAAAQAAAAL8AAAAAgAAAAAAAAABAAAAEABUAG8AbwBsACAAQgBvAHgDAAAAAP////8AAAAAAAAAAAAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAABYAdABlAHgAdABUAG8AbwBsAEIAYQByAAAAAfX/////AAAAAAAAAAA=
 ToolBarsMovable=Disabled
-Width 1920=764
+Width 1920=1916
 
 [MainWindow][Toolbar Tool Box]
 ToolButtonStyle=IconOnly
@@ -19,12 +25,26 @@ Configurable Quality Setting=image/jp2,image/jpeg,image/x-webp
 Maximum Color Depth=image/x-eps:32,image/x-portable-bitmap:1,image/x-portable-graymap:8,image/x-xbitmap:1
 
 [Recent Files]
-File1[$e]=$HOME/Yandex.Disk/Documents/Projects/Job/miamo/miamo/assets/ok.png
-File2[$e]=$HOME/Yandex.Disk/Documents/Projects/Job/miamo/miamo/assets/not_ok.png
-File3[$e]=$HOME/Yandex.Disk/Documents/Projects/Job/miamo/miamo/assets/phone_image.png
-Name1[$e]=ok.png
-Name2[$e]=not_ok.png
-Name3[$e]=phone_image.png
+File1[$e]=$HOME/cloud/Documents/Univer/modeling/mark1.png
+File2[$e]=$HOME/cloud/Documents/Univer/modeling/mark2.png
+File3[$e]=$HOME/Pictures/screenshots/ss_2016-10-13_14:02:02.png
+File4[$e]=$HOME/Pictures/screenshots/ss_20161106_194457.png
+File5[$e]=$HOME/cloud/Documents/Univer/modeling/model2.png
+File6[$e]=$HOME/cloud/Documents/Projects/Job/miamo/miamo/assets/add_photo.png
+File7[$e]=$HOME/cloud/Documents/Projects/Job/miamo/miamo/assets/plus_button.png
+Name1[$e]=mark1.png
+Name2[$e]=mark2.png
+Name3[$e]=ss_2016-10-13_14:02:02.png
+Name4[$e]=ss_20161106_194457.png
+Name5[$e]=model2.png
+Name6[$e]=add_photo.png
+Name7[$e]=plus_button.png
+
+[Text Settings]
+Font Size=21
+Italic=false
+Strike Thru=false
+Underline=false
 
 [Tool Settings]
 Last Used Tool=1
@@ -35,7 +55,7 @@ Tool Widget Eraser Size Row=1
 Tool Widget Fill Style Col=0
 Tool Widget Fill Style Row=0
 Tool Widget Line Width Col=0
-Tool Widget Line Width Row=0
+Tool Widget Line Width Row=1
 Tool Widget Opaque/Transparent Col=0
 Tool Widget Opaque/Transparent Row=0
 Tool Widget Spraycan Size Col=0

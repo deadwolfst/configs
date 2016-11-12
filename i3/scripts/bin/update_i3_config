@@ -1,0 +1,8 @@
+#!/bin/bash
+cat \
+    $CONFIGS/i3/partconf/config.base \
+    $CONFIGS/i3/partconf/config.i3_gaps \
+    $CONFIGS/i3/partconf/config.color \
+    $CONFIGS/i3/partconf/config.home \
+    $CONFIGS/i3/partconf/config.custom_bind \
+    > $CONFIGS/i3/config

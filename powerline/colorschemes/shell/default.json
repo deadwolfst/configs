@@ -1,7 +1,7 @@
 {
 	"name": "Default color scheme for shell prompts",
 	"groups": {
-		"user":	{ "fg": "white", "bg": "darksolarized:lightred", "attrs": [] },
+		"user":	{ "fg": "white", "bg": "darksolarized:lightblue", "attrs": [] },
 		"hostname":         { "fg": "brightyellow", "bg": "mediumorange", "attrs": [] },
 		"background" : {"fg":"white", "bg":"blue", "attrs": []},
 		"background:divider" : {"fg":"green", "bg":"blue", "attrs": []},

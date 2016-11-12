@@ -1,0 +1,17 @@
+#This is a part of i3 config file with color congiguration
+
+
+set $bar_back #1c8e5f
+set $bar_sep #75AF96
+set $bg-color            #27a97f
+set $active-bg-color     #166f5f
+set $text-color          #ffffff
+set $inactive-text-color #969896
+set $urgent-bg-color     #cc6666
+
+# window colors
+#                       border               background         text                 indicator
+client.focused          $active-bg-color     $active-bg-color   $text-color          $inactive-text-color
+client.unfocused        $bg-color            $bg-color          $inactive-text-color $inactive-text-color
+client.focused_inactive $bg-color	     $bg-color          $text-color          $inactive-text-color
+client.urgent           $urgent-bg-color     $urgent-bg-color   $text-color          $inactive-text-color

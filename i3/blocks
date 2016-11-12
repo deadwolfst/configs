@@ -1,94 +1,96 @@
 #Global
-command=$I3_CONF/scripts/$BLOCK_NAME
-background=#292929bb
+command=$CONFIGS/i3/scripts/$BLOCK_NAME
+#background=#101010cc
 separator_block_width=15
 separator=false
-color=#d1c4bb
+#color=#d1c4bb
+color=#ffffff
 align=center
 border_bottom=0
 border_left=0
 border_right=0
 border_top=3
+#border=#e0e0e0
+border=#ffffff
 
 [greeting]
 command=echo "Owner is @whiteobscurity >> "
-background=none
 interval=once
+border_top=0
 
 #Blocks
 [uptime]
 label= uptime
-command=uptime | awk '{ print $1 }' | cut -c 1-5
+command=uptime | awk '{ print $3 }'
 interval=60
-border=#476d59
+#border=#476d59
 
 [load_average]
 label=load
 interval=2
 separator=false
-border=#8d5670
+#border=#8d5670
 
 [cpu_usage]
 label=cpu
 interval=10
 min_width=CPU: 100.00%
 separator=false
-border=#6b6f4f
+#border=#6b6f4f
 
 [memory]
 label=ram
 separator=false
 interval=10
-border=#8d5670
+#border=#8d5670
 
 [memory]
 label=swap
 instance=swap
 interval=30
-border=#8d5670
+#border=#8d5670
 
 [home_free]
 label=/home:
 interval=30
 min_width=85
-border=#8d5670
+#border=#8d5670
 
 [root_free]
 label=/:
 interval=30
 min_width=60
-border=#8d5670
+#border=#8d5670
 
 [network]
 markup=pango
 interval=4
 min_width=160
-border=#57567d
+#border=#57567d
 
 [battery]
-#command=$HOME/.config/i3/scripts/battery.py
 interval=persist
 markup=pango
 min_width=50
-border=#8d5670
+#border=#8d5670
 
 [volume]
 label=
 interval=once
 signal=1
 min_width=43
-border=#8d5670
+#border=#8d5670
 
 [brightness]
 label=
 command=printf "%.0f" $(xbacklight -get)
 interval=once
 signal=2
-border=#8d5670
+#border=#8d5670
 
 [time]
 command=date '+%d.%m.%Y %H:%M:%S'
 interval=5
 min_width=150
 color=#ffffff
-border=#786b60
+#border=#786b60

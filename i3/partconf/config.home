@@ -1,0 +1,33 @@
+#This is a part of i3 config file $XDG_CONFIG_HOME/i3/config
+#IT contains homebook specific configuration
+
+bar {
+        position top
+        
+        mode hide
+        hidden_state hide
+        modifier $mod
+        tray_output eDP1
+        height 23
+        separator_symbol "_"
+        font pango: DejaVu Sans Mono, Awesome 10
+        status_command i3blocks -c $CONFIGS/i3/blocks
+        position bottom
+        colors {
+            background $bar_back
+            separator $bar_sep
+            #                  border             background         text
+            focused_workspace  $active-bg-color   $bg-color          $text-color
+            inactive_workspace $bg-color          $active-bg-color   $inactive-text-color
+            urgent_workspace   $urgent-bg-color   $urgent-bg-color   $text-color
+        }
+}
+
+#
+# run programs
+exec $terminal
+exec Telegram
+exec yandex-browser-beta
+exec setwall ~/cloud/Documents/Wallpapers/architecture_wallpaper.jpg
+exec compton
+exec twmnd

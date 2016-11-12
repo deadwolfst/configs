@@ -1,0 +1,12 @@
+18:08:34 | Environment | SparkleShare version: 1.5.0, Operating system: Unix (Unix 4.8.2.1)
+18:08:35 | Config | Wrote to '/home/kirill/Yandex.Disk/Documents/LinuxFiles/.config/sparkleshare/config.xml'
+18:08:35 | Config | Updated option notifications:True
+18:08:36 | Avatars | Error fetching avatar for unknown: The remote server returned an error: (404) Not Found.   at System.Net.WebClient.DownloadDataInternal (System.Uri address, System.Net.WebRequest& request) [0x0008a] in <6c7c03f48a9747c8a644da4f63a34480>:0 
+  at System.Net.WebClient.DownloadData (System.Uri address) [0x00029] in <6c7c03f48a9747c8a644da4f63a34480>:0 
+  at System.Net.WebClient.DownloadData (System.String address) [0x00019] in <6c7c03f48a9747c8a644da4f63a34480>:0 
+  at (wrapper remoting-invoke-with-check) System.Net.WebClient:DownloadData (string)
+  at SparkleShare.SparkleAvatars.GetAvatar (System.String email, System.Int32 size, System.String target_path) [0x0016f] in <5d31e501a3064da3810c5bb3f66c1e75>:0 
+18:08:36 | Auth | Created keypair '/home/kirill/Yandex.Disk/Documents/LinuxFiles/.config/sparkleshare/2016-10-25_18h08.key'
+18:08:36 | Auth | Imported key '/home/kirill/Yandex.Disk/Documents/LinuxFiles/.config/sparkleshare/2016-10-25_18h08.key'
+18:09:02 | Config | Wrote to '/home/kirill/Yandex.Disk/Documents/LinuxFiles/.config/sparkleshare/config.xml'
+18:10:28 | Controller | Added SparkleShare to login items
