@@ -1,8 +1,42 @@
 #!/bin/bash
 
+## Installation
+# $ git clone https://github.com/nibogd/november.git ~/.november/
+
+## Dependencies
+
+#Dependencies for taking screenshots:
+# - maim
+# - slop
+# - xdotool
+# - xclip (optional, for copying to clipboard)
+# - imagemagick (optional, for shadows)
+# - notify-send (optional, for notifications)
+
+#Dependencies for recording videos:
+# - ffmpeg
+# - slop
+# - xdpyinfo
+# - notify-send (optional, for notifications)
+
+#Dependencies for helper:
+# - curl
+# - an image viewer (preferably feh) and a video player (preferably mpv)
+#   (the former are specified in ~/.november.conf)
+# - xclip (optional, for copying links to clipboard)
+ 
+
+## Installation
+#Install the dependencies (read above)
+
+#Clone this repo wherever you like:
+#$ git clone https://github.com/nibogd/november.git ~/.november/
+
+
+
 configfile="$HOME/.november.conf"
 nov_dir=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
-last_path="$nov_dir/last_shot"
+#last_path="$nov_dir/last_shot"
 
 if [ "$1" == "help" ] || [ "$1" == '' ] || [ "$1" == "--help" ] || [ "$1" == "-h" ]; then
     echo "November -- a simple screenshooting utility"
@@ -104,6 +138,6 @@ if command -v "notify-send" >/dev/null; then
         notify-send "Screenshot" "Failed"
     fi
 fi
-echo "$file" > $last_path
+#echo "$file" > $last_path
 exit $code
 
