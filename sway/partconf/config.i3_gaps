@@ -1,0 +1,6 @@
+#This is i3 specific part of i3 config file
+
+for_window [class="^.*"] border pixel 0
+gaps inner 4
+gaps outer 0
+smart_gaps on

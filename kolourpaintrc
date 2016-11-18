@@ -1,20 +1,23 @@
+[File/Save As]
+Forced Quality=75
+
 [General Settings]
 Color Similarity=0
 First Time=false
-Last Document Size=68,68
+Last Document Size=704,447
 Open Images in the Same Window=false
 
 [KFileDialog Settings]
 Height 1080=540
-Recent Files[$e]=mark2.png,file:$HOME/cloud/Documents/Univer/modeling/model2.png,file:$HOME/cloud/Documents/Univer/modeling/mark2.png
-Recent URLs[$e]=file:$HOME/cloud/Documents/Univer/modeling/
+Recent Files[$e]=file:$HOME/cloud/Documents/Univer/databases/courcework2/scheme.png,file:$HOME/Pictures/5917312.jpg,file:$HOME/cloud/Documents/Univer/modeling/model2.png,file:$HOME/cloud/Documents/Univer/modeling/mark2.png
+Recent URLs[$e]=file:$HOME/cloud/Documents/Univer/modeling/,file:$HOME/Pictures/,file:$HOME/cloud/Documents/Univer/databases/courcework2/
 Width 1920=960
 
 [MainWindow]
-Height 1080=1076
-State=AAAA/wAAAAD9AAAAAQAAAAMAAAcjAAAAY/wBAAAAAfsAAAASAEMAbwBsAG8AcgAgAEIAbwB4AQAAAFkAAAcjAAACDQD///8AAAcjAAADhAAAAAQAAAAEAAAAAQAAAAL8AAAAAgAAAAAAAAABAAAAEABUAG8AbwBsACAAQgBvAHgDAAAAAP////8AAAAAAAAAAAAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAABYAdABlAHgAdABUAG8AbwBsAEIAYQByAAAAAfX/////AAAAAAAAAAA=
+Height 1080=1080
+State=AAAA/wAAAAD9AAAAAQAAAAMAAAcnAAAAY/wBAAAAAfsAAAASAEMAbwBsAG8AcgAgAEIAbwB4AQAAAFkAAAcnAAACDQD///8AAAcnAAADiAAAAAQAAAAEAAAAAQAAAAL8AAAAAgAAAAAAAAABAAAAEABUAG8AbwBsACAAQgBvAHgDAAAAAP////8AAAAAAAAAAAAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAABYAdABlAHgAdABUAG8AbwBsAEIAYQByAAAAAfX/////AAAAAAAAAAA=
 ToolBarsMovable=Disabled
-Width 1920=1916
+Width 1920=1920
 
 [MainWindow][Toolbar Tool Box]
 ToolButtonStyle=IconOnly
@@ -25,39 +28,45 @@ Configurable Quality Setting=image/jp2,image/jpeg,image/x-webp
 Maximum Color Depth=image/x-eps:32,image/x-portable-bitmap:1,image/x-portable-graymap:8,image/x-xbitmap:1
 
 [Recent Files]
-File1[$e]=$HOME/cloud/Documents/Univer/modeling/mark1.png
-File2[$e]=$HOME/cloud/Documents/Univer/modeling/mark2.png
-File3[$e]=$HOME/Pictures/screenshots/ss_2016-10-13_14:02:02.png
-File4[$e]=$HOME/Pictures/screenshots/ss_20161106_194457.png
-File5[$e]=$HOME/cloud/Documents/Univer/modeling/model2.png
-File6[$e]=$HOME/cloud/Documents/Projects/Job/miamo/miamo/assets/add_photo.png
-File7[$e]=$HOME/cloud/Documents/Projects/Job/miamo/miamo/assets/plus_button.png
-Name1[$e]=mark1.png
-Name2[$e]=mark2.png
-Name3[$e]=ss_2016-10-13_14:02:02.png
-Name4[$e]=ss_20161106_194457.png
-Name5[$e]=model2.png
-Name6[$e]=add_photo.png
-Name7[$e]=plus_button.png
+File1[$e]=$HOME/Pictures/screenshots/ss_20161106_194457.png
+File10[$e]=$HOME/cloud/Documents/Univer/databases/courcework2/scheme.png
+File2[$e]=$HOME/cloud/Documents/Univer/modeling/model2.png
+File3[$e]=$HOME/cloud/Documents/Projects/Job/miamo/miamo/assets/add_photo.png
+File4[$e]=$HOME/cloud/Documents/Projects/Job/miamo/miamo/assets/plus_button.png
+File5[$e]=$HOME/Pictures/_FAHi76QyUg.jpg
+File6[$e]=$HOME/Pictures/ZomFeedGuv4.jpg
+File7[$e]=$HOME/cloud/Documents/Wallpapers/wallpaper_arch_linux_by_bruoneightwo-da232j1.png
+File8[$e]=$HOME/Pictures/5917312.jpg
+File9[$e]=$HOME/cloud/Documents/Univer/databases/courcework/er.png
+Name1[$e]=ss_20161106_194457.png
+Name10[$e]=scheme.png
+Name2[$e]=model2.png
+Name3[$e]=add_photo.png
+Name4[$e]=plus_button.png
+Name5[$e]=_FAHi76QyUg.jpg
+Name6[$e]=ZomFeedGuv4.jpg
+Name7[$e]=wallpaper_arch_linux_by_bruoneightwo-da232j1.png
+Name8[$e]=5917312.jpg
+Name9[$e]=er.png
 
 [Text Settings]
-Font Size=21
+Font Size=18
 Italic=false
 Strike Thru=false
 Underline=false
 
 [Tool Settings]
 Last Used Tool=1
-Tool Widget Brush Col=0
+Tool Widget Brush Col=1
 Tool Widget Brush Row=0
 Tool Widget Eraser Size Col=0
 Tool Widget Eraser Size Row=1
 Tool Widget Fill Style Col=0
 Tool Widget Fill Style Row=0
 Tool Widget Line Width Col=0
-Tool Widget Line Width Row=1
+Tool Widget Line Width Row=4
 Tool Widget Opaque/Transparent Col=0
-Tool Widget Opaque/Transparent Row=0
+Tool Widget Opaque/Transparent Row=1
 Tool Widget Spraycan Size Col=0
 Tool Widget Spraycan Size Row=0
 

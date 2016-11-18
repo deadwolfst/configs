@@ -31,7 +31,3 @@ exec yandex-browser-beta
 exec setwall ~/cloud/Documents/Wallpapers/architecture_wallpaper.jpg
 exec compton
 exec twmnd
-
-assign [window_role="browser"] $w1
-assign [class="Termite"] $w2
-assign [class="Telegram"] $w10

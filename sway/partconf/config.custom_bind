@@ -1,0 +1,38 @@
+#This is a part of i3 config file with custom key bindings (mostly XF86_...)
+
+
+# Audio controls
+#increase sound volume
+bindsym XF86AudioRaiseVolume "exec amixer sset Master 5%+; exec pkill -RTMIN+1 i3blocks"
+#decrease sound volume
+bindsym XF86AudioLowerVolume "exec amixer sset Master 5%-; exec pkill -RTMIN+1 i3blocks"
+# mute sound
+#bindsym XF86AudioMute exec amixer sset Master,0 toggle
+bindsym XF86AudioMute exec "amixer sset Master,0 toggle; exec pkill -RTMIN+1 i3blocks"
+
+
+# Sreen brightness controls
+bindsym XF86MonBrightnessUp exec "xbacklight -inc 5; exec pkill -RTMIN+2 i3blocks"
+bindsym XF86MonBrightnessDown exec "xbacklight -dec 5; exec pkill -RTMIN+2 i3blocks"
+
+# start rofi (a program launcher)
+#bindsym $mod+d exec rofi -show run # $(/home/kirill/.config/i3/i3-color-rofi)
+
+# start locker
+bindsym $mod+semicolon exec physlock
+
+# Touchpad controls
+bindsym XF86TouchpadToggle exec synclient TouchpadOff=$(synclient -l | grep -c 'TouchpadOff.*=.*0')
+#toggle-touchpad
+
+# Media player controls
+bindsym XF86AudioPlay exec playerctl play-pause
+bindsym XF86AudioPause exec playerctl pause
+bindsym XF86AudioStop exec playerctl stop
+bindsym XF86AudioNext exec playerctl next
+bindsym XF86AudioPrev exec playerctl previous
+
+# printscreen
+bindsym --release Print exec november screen
+bindsym --release Shift+Print exec november selection
+#bindsym --release Alt+Print exec november window

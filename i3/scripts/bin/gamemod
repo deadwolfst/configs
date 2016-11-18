@@ -1,0 +1,51 @@
+#!/bin/bash
+#game mod for better UX :D
+USAGE="USAGE: \'$0 on|off \'"
+
+if [ $# -gt 1 ]; then
+    echo "$USAGE"
+    exit 1;
+fi
+
+if [[ $# = 0 ]];then
+    mod=$(ps -ef | grep compton | awk '{
+        for (i=9; i<=NF; ++i)
+            if ($i=="--unredir-if-possible")
+                print "on";
+            }')
+    if [ "$mod" = 'on' ];then
+        pkill compton
+        compton -b
+        pkill -RTMIN+3 i3blocks
+    else
+        pkill compton
+        compton --unredir-if-possible -b
+        pkill -RTMIN+3 i3blocks
+    fi
+    exit 1;
+fi
+
+if [ "$1" = 'on' ]; then
+    pkill compton
+    compton --unredir-if-possible -b
+    pkill -RTMIN+3 i3blocks
+elif [ "$1" = 'off' ]; then
+    pkill compton
+    compton -b
+    pkill -RTMIN+3 i3blocks
+elif [ "$1" = '?' ]; then
+    mod=$(ps -ef | grep compton | awk '{
+        for (i=9; i<=NF; ++i)
+            if ($i=="--unredir-if-possible")
+                print "on";
+            }')
+    if [ "$mod" = 'on' ];then
+        echo "on"
+    else
+        echo "off"
+    fi
+else
+    echo "$USAGE"
+    exit 1;
+fi
+exit 0;

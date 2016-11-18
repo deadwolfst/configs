@@ -18,10 +18,15 @@ command=echo "Owner is @whiteobscurity >> "
 interval=once
 border_top=0
 
+[gamemod]
+label=gamemod
+command=gamemod ?
+interval=once
+signal=3
+
 #Blocks
 [uptime]
-label= uptime
-command=uptime | awk '{ print $3 }'
+command=uptime -p | awk '{ print $1, $2, substr($3,0,1), $4, substr($5,0,1) }'
 interval=60
 #border=#476d59
 
