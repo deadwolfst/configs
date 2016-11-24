@@ -1,4 +1,5 @@
 [File/Save As]
+Forced MimeType=image/png
 Forced Quality=75
 
 [General Settings]
@@ -9,8 +10,8 @@ Open Images in the Same Window=false
 
 [KFileDialog Settings]
 Height 1080=540
-Recent Files[$e]=file:$HOME/cloud/Documents/Univer/databases/courcework2/scheme.png,file:$HOME/Pictures/5917312.jpg,file:$HOME/cloud/Documents/Univer/modeling/model2.png,file:$HOME/cloud/Documents/Univer/modeling/mark2.png
-Recent URLs[$e]=file:$HOME/cloud/Documents/Univer/modeling/,file:$HOME/Pictures/,file:$HOME/cloud/Documents/Univer/databases/courcework2/
+Recent Files[$e]=file:$HOME/cloud/Documents/Univer/databases/courcework2/scheme.png,file:$HOME/cloud/Documents/Projects/Job/miamo/miamo/assets/change_profile.png,file:$HOME/Pictures/5917312.jpg,file:$HOME/cloud/Documents/Univer/modeling/model2.png,file:$HOME/cloud/Documents/Univer/modeling/mark2.png
+Recent URLs[$e]=file:$HOME/cloud/Documents/Univer/modeling/,file:$HOME/Pictures/,file:$HOME/cloud/Documents/Univer/databases/courcework2/,file:$HOME/cloud/Documents/Projects/Job/miamo/miamo/assets/
 Width 1920=960
 
 [MainWindow]
@@ -28,26 +29,26 @@ Configurable Quality Setting=image/jp2,image/jpeg,image/x-webp
 Maximum Color Depth=image/x-eps:32,image/x-portable-bitmap:1,image/x-portable-graymap:8,image/x-xbitmap:1
 
 [Recent Files]
-File1[$e]=$HOME/Pictures/screenshots/ss_20161106_194457.png
-File10[$e]=$HOME/cloud/Documents/Univer/databases/courcework2/scheme.png
-File2[$e]=$HOME/cloud/Documents/Univer/modeling/model2.png
-File3[$e]=$HOME/cloud/Documents/Projects/Job/miamo/miamo/assets/add_photo.png
-File4[$e]=$HOME/cloud/Documents/Projects/Job/miamo/miamo/assets/plus_button.png
-File5[$e]=$HOME/Pictures/_FAHi76QyUg.jpg
-File6[$e]=$HOME/Pictures/ZomFeedGuv4.jpg
-File7[$e]=$HOME/cloud/Documents/Wallpapers/wallpaper_arch_linux_by_bruoneightwo-da232j1.png
-File8[$e]=$HOME/Pictures/5917312.jpg
-File9[$e]=$HOME/cloud/Documents/Univer/databases/courcework/er.png
-Name1[$e]=ss_20161106_194457.png
-Name10[$e]=scheme.png
-Name2[$e]=model2.png
-Name3[$e]=add_photo.png
-Name4[$e]=plus_button.png
-Name5[$e]=_FAHi76QyUg.jpg
-Name6[$e]=ZomFeedGuv4.jpg
-Name7[$e]=wallpaper_arch_linux_by_bruoneightwo-da232j1.png
-Name8[$e]=5917312.jpg
-Name9[$e]=er.png
+File1[$e]=$HOME/cloud/Documents/Univer/modeling/model2.png
+File10[$e]=$HOME/cloud/Documents/Projects/Job/miamo/miamo/assets/change_profile.png
+File2[$e]=$HOME/cloud/Documents/Projects/Job/miamo/miamo/assets/add_photo.png
+File3[$e]=$HOME/cloud/Documents/Projects/Job/miamo/miamo/assets/plus_button.png
+File4[$e]=$HOME/Pictures/_FAHi76QyUg.jpg
+File5[$e]=$HOME/Pictures/ZomFeedGuv4.jpg
+File6[$e]=$HOME/cloud/Documents/Wallpapers/wallpaper_arch_linux_by_bruoneightwo-da232j1.png
+File7[$e]=$HOME/Pictures/5917312.jpg
+File8[$e]=$HOME/cloud/Documents/Univer/databases/courcework2/scheme.png
+File9[$e]=$HOME/cloud/Documents/Projects/Job/miamo/miamo/assets/change_profile.jpg
+Name1[$e]=model2.png
+Name10[$e]=change_profile.png
+Name2[$e]=add_photo.png
+Name3[$e]=plus_button.png
+Name4[$e]=_FAHi76QyUg.jpg
+Name5[$e]=ZomFeedGuv4.jpg
+Name6[$e]=wallpaper_arch_linux_by_bruoneightwo-da232j1.png
+Name7[$e]=5917312.jpg
+Name8[$e]=scheme.png
+Name9[$e]=change_profile.jpg
 
 [Text Settings]
 Font Size=18
@@ -56,7 +57,7 @@ Strike Thru=false
 Underline=false
 
 [Tool Settings]
-Last Used Tool=1
+Last Used Tool=8
 Tool Widget Brush Col=1
 Tool Widget Brush Row=0
 Tool Widget Eraser Size Col=0

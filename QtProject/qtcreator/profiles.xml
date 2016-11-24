@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProfiles>
-<!-- Written by QtCreator 4.1.0, 2016-11-17T21:04:57. -->
+<!-- Written by QtCreator 4.1.0, 2016-11-23T01:10:58. -->
 <qtcreator>
  <data>
   <variable>Profile.0</variable>
@@ -61,17 +61,17 @@
    <value type="bool" key="PE.Profile.SDK">false</value>
    <valuelist type="QVariantList" key="PE.Profile.StickyInfo">
     <value type="QString">PE.Profile.Environment</value>
-    <value type="QString">CMakeProjectManager.CMakeKitInformation</value>
     <value type="QString">PE.Profile.SysRoot</value>
+    <value type="QString">PE.Profile.DeviceType</value>
     <value type="QString">Android.GdbServer.Information</value>
     <value type="QString">CMake.ConfigurationKitInformation</value>
     <value type="QString">CMake.GeneratorKitInformation</value>
     <value type="QString">PE.Profile.ToolChain</value>
     <value type="QString">PE.Profile.Device</value>
-    <value type="QString">PE.Profile.DeviceType</value>
-    <value type="QString">Debugger.Information</value>
-    <value type="QString">QtSupport.QtInformation</value>
     <value type="QString">QtPM4.mkSpecInformation</value>
+    <value type="QString">Debugger.Information</value>
+    <value type="QString">CMakeProjectManager.CMakeKitInformation</value>
+    <value type="QString">QtSupport.QtInformation</value>
    </valuelist>
   </valuemap>
  </data>

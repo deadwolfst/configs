@@ -4,6 +4,7 @@
 bar {
         position top
         
+        strip_workspace_numbers true
         mode hide
         hidden_state hide
         modifier $mod
@@ -27,10 +28,11 @@ bar {
 # run programs
 exec $terminal
 exec Telegram
-exec yandex-browser-beta
+exec vivaldi-stable
 exec setwall ~/cloud/Documents/Wallpapers/architecture_wallpaper.jpg
 exec compton
 exec twmnd
+# exec touchegg # uncomment this when i will get the appropriate screen
 
 assign [window_role="browser"] $w1
 assign [class="Termite"] $w2

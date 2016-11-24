@@ -10,6 +10,7 @@
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
 set $mod Mod4
+set $modcode 133
 set $terminal termite -c $I3_CONF/../termite/config
 
 # Font for window titles. Will also be used by the bar unless a different font
@@ -93,16 +94,16 @@ bindsym $mod+a focus parent
 # focus the child container
 #bindsym $mod+d focus child
 
-set $w1 "1 "
-set $w2 "2 "
-set $w3 "3 "
-set $w4 "4 "
-set $w5 "5 "
-set $w6 "6 "
-set $w7 "7 "
-set $w8 "8 "
-set $w9 "9 "
-set $w10 "10 T"
+set $w1 "1:1 "
+set $w2 "2:2 "
+set $w3 "3:3 "
+set $w4 "4:4 "
+set $w5 "5:5 "
+set $w6 "6:6 "
+set $w7 "7:7 "
+set $w8 "8:8 "
+set $w9 "9:9 "
+set $w10 "10:10 T"
 
 # switch to workspace
 bindsym $mod+1 workspace $w1
@@ -116,6 +117,9 @@ bindsym $mod+8 workspace $w8
 bindsym $mod+9 workspace $w9
 bindsym $mod+0 workspace $w10
 
+#bindcode $modcode+151 workspace next
+#bindsym $modcode+33 workspace prev
+
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace $w1
 bindsym $mod+Shift+2 move container to workspace $w2
@@ -127,6 +131,9 @@ bindsym $mod+Shift+7 move container to workspace $w7
 bindsym $mod+Shift+8 move container to workspace $w8
 bindsym $mod+Shift+9 move container to workspace $w9
 bindsym $mod+Shift+0 move container to workspace $w10
+
+#bindsym $mod+Alt+Shift+Right move container to workspace next
+#bindsym $mod+Alt+Shift+Left move container to workspace prev
 
 # reload the configuration file
 bindsym $mod+Shift+c exec update_i3_config; reload
@@ -191,6 +198,7 @@ client.urgent           $urgent-bg-color     $urgent-bg-color   $text-color     
 bar {
         position top
         
+        strip_workspace_numbers true
         mode hide
         hidden_state hide
         modifier $mod
@@ -214,7 +222,7 @@ bar {
 # run programs
 exec $terminal
 exec Telegram
-exec yandex-browser-beta
+exec vivaldi-stable
 exec setwall ~/cloud/Documents/Wallpapers/architecture_wallpaper.jpg
 exec compton
 exec twmnd

@@ -1,0 +1,136 @@
+2016/11/24-00:11:07.225 3944 Reusing MANIFEST /home/kirill/cloud/Documents/LinuxFiles/.config/vivaldi/Default/Session Storage/MANIFEST-000001
+2016/11/24-00:11:07.226 3944 Recovering log #14
+2016/11/24-00:11:07.226 3944 Reusing old log /home/kirill/cloud/Documents/LinuxFiles/.config/vivaldi/Default/Session Storage/000014.log 
+2016/11/24-00:11:07.226 3944 Delete type=2 #16
+2016/11/24-00:11:07.227 4257 Compacting 4@0 + 1@1 files
+2016/11/24-00:11:07.336 4257 Generated table #17@0: 316 keys, 707378 bytes
+2016/11/24-00:11:07.336 4257 Compacted 4@0 + 1@1 files => 707378 bytes
+2016/11/24-00:11:07.340 4257 compacted to: files[ 0 1 1 0 0 0 0 ]
+2016/11/24-00:11:07.341 4257 Delete type=2 #9
+2016/11/24-00:11:07.341 4257 Delete type=2 #13
+2016/11/24-00:11:07.341 4257 Delete type=2 #7
+2016/11/24-00:11:07.341 4257 Delete type=2 #15
+2016/11/24-00:11:07.341 4257 Delete type=2 #11
+2016/11/24-00:11:20.027 4257 Level-0 table #19: started
+2016/11/24-00:11:20.044 4257 Level-0 table #19: 84673 bytes OK
+2016/11/24-00:11:20.048 4257 Delete type=0 #14
+2016/11/24-00:17:25.665 4257 Level-0 table #21: started
+2016/11/24-00:17:25.665 3944 Current memtable full; waiting...
+2016/11/24-00:17:25.678 4257 Level-0 table #21: 92383 bytes OK
+2016/11/24-00:17:25.682 4257 Delete type=0 #18
+2016/11/24-00:17:25.682 4257 Level-0 table #23: started
+2016/11/24-00:17:25.687 4257 Level-0 table #23: 35966 bytes OK
+2016/11/24-00:17:25.691 4257 Delete type=0 #20
+2016/11/24-00:33:52.778 4257 Level-0 table #25: started
+2016/11/24-00:33:53.064 4257 Level-0 table #25: 211814 bytes OK
+2016/11/24-00:33:53.068 4257 Delete type=0 #22
+2016/11/24-00:33:53.069 4257 Compacting 4@0 + 1@1 files
+2016/11/24-00:33:53.099 4257 Generated table #26@0: 584 keys, 423282 bytes
+2016/11/24-00:33:53.099 4257 Compacted 4@0 + 1@1 files => 423282 bytes
+2016/11/24-00:33:53.103 4257 compacted to: files[ 0 1 1 0 0 0 0 ]
+2016/11/24-00:33:53.103 4257 Delete type=2 #25
+2016/11/24-00:33:53.103 4257 Delete type=2 #21
+2016/11/24-00:33:53.103 4257 Delete type=2 #23
+2016/11/24-00:33:53.103 4257 Delete type=2 #17
+2016/11/24-00:33:53.103 4257 Delete type=2 #19
+2016/11/24-00:34:00.009 4257 Level-0 table #28: started
+2016/11/24-00:34:00.030 4257 Level-0 table #28: 147324 bytes OK
+2016/11/24-00:34:00.034 4257 Delete type=0 #24
+2016/11/24-00:35:00.835 4257 Level-0 table #30: started
+2016/11/24-00:35:00.853 4257 Level-0 table #30: 433964 bytes OK
+2016/11/24-00:35:00.857 4257 Delete type=0 #27
+2016/11/24-00:37:20.868 4257 Level-0 table #32: started
+2016/11/24-00:37:20.874 4257 Level-0 table #32: 80773 bytes OK
+2016/11/24-00:37:20.878 4257 Delete type=0 #29
+2016/11/24-00:38:15.549 4257 Level-0 table #34: started
+2016/11/24-00:38:15.597 4257 Level-0 table #34: 1224491 bytes OK
+2016/11/24-00:38:15.601 4257 Delete type=0 #31
+2016/11/24-00:38:15.602 4257 Compacting 4@0 + 1@1 files
+2016/11/24-00:38:15.671 4257 Generated table #35@0: 903 keys, 2100765 bytes
+2016/11/24-00:38:15.692 4257 Generated table #36@0: 137 keys, 207071 bytes
+2016/11/24-00:38:15.692 4257 Compacted 4@0 + 1@1 files => 2307836 bytes
+2016/11/24-00:38:15.696 4257 compacted to: files[ 0 2 1 0 0 0 0 ]
+2016/11/24-00:38:15.696 4257 Delete type=2 #34
+2016/11/24-00:38:15.696 4257 Delete type=2 #26
+2016/11/24-00:38:15.696 4257 Delete type=2 #30
+2016/11/24-00:38:15.696 4257 Delete type=2 #28
+2016/11/24-00:38:15.697 4257 Delete type=2 #32
+2016/11/24-00:55:49.074 4257 Level-0 table #38: started
+2016/11/24-00:55:49.084 4257 Level-0 table #38: 89085 bytes OK
+2016/11/24-00:55:49.087 4257 Delete type=0 #33
+2016/11/24-00:56:10.990 4257 Level-0 table #40: started
+2016/11/24-00:56:11.007 4257 Level-0 table #40: 173407 bytes OK
+2016/11/24-00:56:11.011 4257 Delete type=0 #37
+2016/11/24-00:59:44.766 4257 Level-0 table #42: started
+2016/11/24-00:59:45.104 4257 Level-0 table #42: 1572975 bytes OK
+2016/11/24-00:59:45.117 4257 Delete type=0 #39
+2016/11/24-01:24:13.823 4257 Level-0 table #44: started
+2016/11/24-01:24:14.146 4257 Level-0 table #44: 1642100 bytes OK
+2016/11/24-01:24:14.152 4257 Delete type=0 #41
+2016/11/24-01:24:14.153 4257 Compacting 4@0 + 2@1 files
+2016/11/24-01:24:14.222 4257 Generated table #45@0: 544 keys, 2112675 bytes
+2016/11/24-01:24:14.285 4257 Generated table #46@0: 604 keys, 2105761 bytes
+2016/11/24-01:24:14.340 4257 Generated table #47@0: 767 keys, 1562837 bytes
+2016/11/24-01:24:14.340 4257 Compacted 4@0 + 2@1 files => 5781273 bytes
+2016/11/24-01:24:14.344 4257 compacted to: files[ 0 3 1 0 0 0 0 ]
+2016/11/24-01:24:14.344 4257 Delete type=2 #40
+2016/11/24-01:24:14.344 4257 Delete type=2 #44
+2016/11/24-01:24:14.345 4257 Delete type=2 #36
+2016/11/24-01:24:14.345 4257 Delete type=2 #42
+2016/11/24-01:24:14.346 4257 Delete type=2 #38
+2016/11/24-01:24:14.346 4257 Delete type=2 #35
+2016/11/24-02:10:54.882 4257 Level-0 table #49: started
+2016/11/24-02:10:55.280 4257 Level-0 table #49: 1710044 bytes OK
+2016/11/24-02:10:55.292 4257 Delete type=0 #43
+2016/11/24-02:33:44.493 4257 Level-0 table #51: started
+2016/11/24-02:33:44.882 4257 Level-0 table #51: 1863574 bytes OK
+2016/11/24-02:33:44.893 4257 Delete type=0 #48
+2016/11/24-02:34:15.843 4257 Level-0 table #53: started
+2016/11/24-02:34:15.927 4257 Level-0 table #53: 1944436 bytes OK
+2016/11/24-02:34:15.932 4257 Delete type=0 #50
+2016/11/24-02:43:29.623 4257 Level-0 table #55: started
+2016/11/24-02:43:29.624 3945 Current memtable full; waiting...
+2016/11/24-02:43:29.963 4257 Level-0 table #55: 2014462 bytes OK
+2016/11/24-02:43:29.968 4257 Delete type=0 #52
+2016/11/24-02:43:29.969 4257 Compacting 4@0 + 3@1 files
+2016/11/24-02:43:29.970 4257 Level-0 table #58: started
+2016/11/24-02:43:29.975 4257 Level-0 table #58: 36297 bytes OK
+2016/11/24-02:43:29.978 4257 Delete type=0 #54
+2016/11/24-02:43:30.076 4257 Generated table #57@0: 544 keys, 2112673 bytes
+2016/11/24-02:43:30.161 4257 Generated table #59@0: 604 keys, 2105759 bytes
+2016/11/24-02:43:30.280 4257 Generated table #60@0: 451 keys, 2138369 bytes
+2016/11/24-02:43:30.421 4257 Generated table #61@0: 469 keys, 2100387 bytes
+2016/11/24-02:43:30.497 4257 Generated table #62@0: 529 keys, 2102888 bytes
+2016/11/24-02:43:30.582 4257 Generated table #63@0: 540 keys, 2117366 bytes
+2016/11/24-02:43:30.633 4257 Generated table #64@0: 723 keys, 634846 bytes
+2016/11/24-02:43:30.633 4257 Compacted 4@0 + 3@1 files => 13312288 bytes
+2016/11/24-02:43:30.704 4257 compacted to: files[ 1 7 1 0 0 0 0 ]
+2016/11/24-02:43:30.705 4257 Delete type=2 #51
+2016/11/24-02:43:30.705 4257 Delete type=2 #53
+2016/11/24-02:43:30.706 4257 Delete type=2 #55
+2016/11/24-02:43:30.706 4257 Delete type=2 #49
+2016/11/24-02:43:30.707 4257 Delete type=2 #46
+2016/11/24-02:43:30.709 4257 Delete type=2 #47
+2016/11/24-02:43:30.710 4257 Delete type=2 #45
+2016/11/24-02:43:30.710 4257 Expanding@1 1+1 (2112673+71063 bytes) to 7+1 (13312288+71063 bytes)
+2016/11/24-02:43:30.710 4257 Compacting 7@1 + 1@2 files
+2016/11/24-02:43:30.800 4257 Generated table #65@1: 541 keys, 2112633 bytes
+2016/11/24-02:43:30.885 4257 Generated table #66@1: 602 keys, 2105733 bytes
+2016/11/24-02:43:30.970 4257 Generated table #67@1: 450 keys, 2138355 bytes
+2016/11/24-02:43:31.063 4257 Generated table #68@1: 464 keys, 2100312 bytes
+2016/11/24-02:43:31.148 4257 Generated table #69@1: 529 keys, 2102888 bytes
+2016/11/24-02:43:31.233 4257 Generated table #70@1: 539 keys, 2117352 bytes
+2016/11/24-02:43:31.268 4257 Generated table #71@1: 356 keys, 630721 bytes
+2016/11/24-02:43:31.268 4257 Compacted 7@1 + 1@2 files => 13307994 bytes
+2016/11/24-02:43:31.271 4257 compacted to: files[ 1 0 7 0 0 0 0 ]
+2016/11/24-02:43:31.271 4257 Delete type=2 #57
+2016/11/24-02:43:31.272 4257 Delete type=2 #61
+2016/11/24-02:43:31.274 4257 Delete type=2 #60
+2016/11/24-02:43:31.276 4257 Delete type=2 #64
+2016/11/24-02:43:31.277 4257 Delete type=2 #59
+2016/11/24-02:43:31.277 4257 Delete type=2 #5
+2016/11/24-02:43:31.277 4257 Delete type=2 #63
+2016/11/24-02:43:31.278 4257 Delete type=2 #62
+2016/11/24-03:07:28.633 4257 Level-0 table #73: started
+2016/11/24-03:07:29.044 4257 Level-0 table #73: 2139166 bytes OK
+2016/11/24-03:07:29.058 4257 Delete type=0 #56
