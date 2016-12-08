@@ -14,7 +14,7 @@ border_top=3
 border=#ffffff
 
 [greeting]
-command=echo "Owner is @whiteobscurity >> "
+command=echo "Owner is @whobscr >> "
 interval=once
 border_top=0
 
