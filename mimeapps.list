@@ -23,8 +23,9 @@ application/x-extension-shtml=userapp-Firefox Developer Edition-CLCBPY.desktop;
 application/xhtml+xml=userapp-Firefox Developer Edition-CLCBPY.desktop;
 application/x-extension-xhtml=userapp-Firefox Developer Edition-CLCBPY.desktop;
 application/x-extension-xht=userapp-Firefox Developer Edition-CLCBPY.desktop;
-application/pdf=wps-office-wps.desktop;
+application/pdf=mupdf.desktop;wps-office-wps.desktop;
 image/png=feh.desktop;
+image/jpeg=feh.desktop;
 
 [Removed Associations]
 image/png=wine-extension-png.desktop;

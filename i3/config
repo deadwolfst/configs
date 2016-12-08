@@ -37,8 +37,17 @@ bindsym $mod+Return exec $terminal
 # kill focused window
 bindsym $mod+Shift+q kill
 
+
+#set $bar_back #1c8e5f
+#set $bar_sep #75AF96
+#set $bg-color            #27a97f
+#set $active-bg-color     #166f5f
+#set $text-color          #ffffff
+#set $inactive-text-color #969896
+#set $urgent-bg-color     #cc6666
+
 # start dmenu (a program launcher)
-bindsym $mod+d exec dmenu_run
+bindsym $mod+d exec dmenu_run -dim 0.5 -h 20 -p whobscr$ -fn 'Droid Sans Mono 14' -sb '#1c8e5f' -nb '#166f5f' -nf '#969896'
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
@@ -223,12 +232,14 @@ bar {
 exec $terminal
 exec Telegram
 exec vivaldi-stable
-exec setwall ~/cloud/Documents/Wallpapers/architecture_wallpaper.jpg
+exec setwall ~/cloud/Documents/Wallpapers/Notre_Dame_de_Paris.jpg
 exec compton
 exec twmnd
 # exec touchegg # uncomment this when i will get the appropriate screen
+focus_follows_mouse no
 
 assign [window_role="browser"] $w1
+assign [class="Vivaldi-stable"] $w1
 assign [class="Termite"] $w2
 assign [class="Telegram"] $w10
 #This is a part of i3 config file with custom key bindings (mostly XF86_...)
@@ -252,7 +263,7 @@ bindsym XF86MonBrightnessDown exec "xbacklight -dec 5; exec pkill -RTMIN+2 i3blo
 #bindsym $mod+d exec rofi -show run # $(/home/kirill/.config/i3/i3-color-rofi)
 
 # start locker
-bindsym $mod+semicolon exec physlock
+bindsym $mod+semicolon exec i3lock
 
 # Touchpad controls
 bindsym XF86TouchpadToggle exec synclient TouchpadOff=$(synclient -l | grep -c 'TouchpadOff.*=.*0')

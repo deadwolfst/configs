@@ -19,7 +19,7 @@ bindsym XF86MonBrightnessDown exec "xbacklight -dec 5; exec pkill -RTMIN+2 i3blo
 #bindsym $mod+d exec rofi -show run # $(/home/kirill/.config/i3/i3-color-rofi)
 
 # start locker
-bindsym $mod+semicolon exec physlock
+bindsym $mod+semicolon exec i3lock
 
 # Touchpad controls
 bindsym XF86TouchpadToggle exec synclient TouchpadOff=$(synclient -l | grep -c 'TouchpadOff.*=.*0')

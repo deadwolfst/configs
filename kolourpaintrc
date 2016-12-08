@@ -5,13 +5,13 @@ Forced Quality=75
 [General Settings]
 Color Similarity=0
 First Time=false
-Last Document Size=704,447
+Last Document Size=54,55
 Open Images in the Same Window=false
 
 [KFileDialog Settings]
 Height 1080=540
-Recent Files[$e]=file:$HOME/cloud/Documents/Univer/databases/courcework2/scheme.png,file:$HOME/cloud/Documents/Projects/Job/miamo/miamo/assets/change_profile.png,file:$HOME/Pictures/5917312.jpg,file:$HOME/cloud/Documents/Univer/modeling/model2.png,file:$HOME/cloud/Documents/Univer/modeling/mark2.png
-Recent URLs[$e]=file:$HOME/cloud/Documents/Univer/modeling/,file:$HOME/Pictures/,file:$HOME/cloud/Documents/Univer/databases/courcework2/,file:$HOME/cloud/Documents/Projects/Job/miamo/miamo/assets/
+Recent Files[$e]=file:$HOME/cloud/Documents/Univer/databases/courcework2/scheme.png,file:$HOME/Downloads/image_gallery.jpg,file:$HOME/cloud/Documents/Projects/Job/miamo/miamo/assets/change_profile.png,file:$HOME/Pictures/5917312.jpg,file:$HOME/cloud/Documents/Univer/modeling/model2.png,file:$HOME/cloud/Documents/Univer/modeling/mark2.png
+Recent URLs[$e]=file:$HOME/cloud/Documents/Univer/modeling/,file:$HOME/Pictures/,file:$HOME/cloud/Documents/Univer/databases/courcework2/,file:$HOME/cloud/Documents/Projects/Job/miamo/miamo/assets/,file:$HOME/Downloads/
 Width 1920=960
 
 [MainWindow]
@@ -38,7 +38,7 @@ File5[$e]=$HOME/Pictures/ZomFeedGuv4.jpg
 File6[$e]=$HOME/cloud/Documents/Wallpapers/wallpaper_arch_linux_by_bruoneightwo-da232j1.png
 File7[$e]=$HOME/Pictures/5917312.jpg
 File8[$e]=$HOME/cloud/Documents/Univer/databases/courcework2/scheme.png
-File9[$e]=$HOME/cloud/Documents/Projects/Job/miamo/miamo/assets/change_profile.jpg
+File9[$e]=$HOME/Downloads/image_gallery.jpg
 Name1[$e]=model2.png
 Name10[$e]=change_profile.png
 Name2[$e]=add_photo.png
@@ -48,7 +48,7 @@ Name5[$e]=ZomFeedGuv4.jpg
 Name6[$e]=wallpaper_arch_linux_by_bruoneightwo-da232j1.png
 Name7[$e]=5917312.jpg
 Name8[$e]=scheme.png
-Name9[$e]=change_profile.jpg
+Name9[$e]=image_gallery.jpg
 
 [Text Settings]
 Font Size=18
@@ -57,7 +57,7 @@ Strike Thru=false
 Underline=false
 
 [Tool Settings]
-Last Used Tool=8
+Last Used Tool=1
 Tool Widget Brush Col=1
 Tool Widget Brush Row=0
 Tool Widget Eraser Size Col=0

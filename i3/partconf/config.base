@@ -37,8 +37,17 @@ bindsym $mod+Return exec $terminal
 # kill focused window
 bindsym $mod+Shift+q kill
 
+
+#set $bar_back #1c8e5f
+#set $bar_sep #75AF96
+#set $bg-color            #27a97f
+#set $active-bg-color     #166f5f
+#set $text-color          #ffffff
+#set $inactive-text-color #969896
+#set $urgent-bg-color     #cc6666
+
 # start dmenu (a program launcher)
-bindsym $mod+d exec dmenu_run
+bindsym $mod+d exec dmenu_run -dim 0.5 -h 20 -p whobscr$ -fn 'Droid Sans Mono 14' -sb '#1c8e5f' -nb '#166f5f' -nf '#969896'
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.

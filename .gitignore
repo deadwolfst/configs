@@ -3,6 +3,8 @@ i3/scripts/bin/last_cast
 yandex-browser/*
 yandex-browser-beta/*
 yandex-disk/*
+vivaldi*
+vivaldi/*
 wine/*
 VirtualBox/*
 QtProject/qtcreator/qbs/*
