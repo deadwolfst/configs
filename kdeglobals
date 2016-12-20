@@ -108,11 +108,22 @@ ForegroundNormal=239,240,241
 ForegroundPositive=39,174,96
 ForegroundVisited=127,140,141
 
+[DirSelect Dialog]
+DirSelectDialog Size=1121,751
+History Items[$e]=file:$HOME/cloud/Documents/Projects,file:$HOME/cloud/Documents/Projects
+
 [General]
+BrowserApplication[$e]=vivaldi-stable.desktop
 ColorScheme=Breeze Dark
 Name=Breeze Dark
+TerminalApplication[$e]=termite
 dbfile=/home/kirill/.mozilla/firefox/rlq1dmy2.default/places.sqlite
+fixed=Droid Sans Mono,10,-1,0,50,0,0,0,0,0
+font=Noto Sans,10,-1,5,50,0,0,0,0,0
+menuFont=Noto Sans,10,-1,5,50,0,0,0,0,0
 shadeSortColumn=true
+smallestReadableFont=Noto Sans,8,-1,5,50,0,0,0,0,0
+toolBarFont=Noto Sans,9,-1,5,50,0,0,0,0,0
 widgetStyle=Breeze
 
 [Icons]
@@ -132,25 +143,34 @@ Breadcrumb Navigation=true
 Decoration position=0
 LocationCombo Completionmode=5
 PathCombo Completionmode=5
-Previews=false
+Previews=true
 Show Bookmarks=false
 Show Full Path=false
+Show Preview=false
 Show Speedbar=true
-Show hidden files=false
+Show hidden files=true
 Sort by=Name
 Sort directories first=true
 Sort reversed=false
-Speedbar Width=93
-View Style=Simple
+Speedbar Width=191
+View Style=DetailTree
+detailedViewIconSize=0
 listViewIconSize=0
+
+[KShortcutsDialog Settings]
+Dialog Size=600,480
 
 [Toolbar style]
 ToolButtonStyle=TextBesideIcon
 ToolButtonStyleOtherToolbars=TextBesideIcon
 
+[Translations]
+LANGUAGE=en_US
+
 [WM]
 activeBackground=49,54,59
 activeBlend=255,255,255
+activeFont=Noto Sans,10,-1,5,50,0,0,0,0,0
 activeForeground=239,240,241
 inactiveBackground=49,54,59
 inactiveBlend=75,71,67

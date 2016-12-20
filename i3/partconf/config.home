@@ -33,7 +33,7 @@ exec setwall ~/cloud/Documents/Wallpapers/Notre_Dame_de_Paris.jpg
 exec compton
 exec twmnd
 # exec touchegg # uncomment this when i will get the appropriate screen
-focus_follows_mouse no
+#focus_follows_mouse no
 
 assign [window_role="browser"] $w1
 assign [class="Vivaldi-stable"] $w1

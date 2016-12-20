@@ -1,0 +1,23 @@
+sudo pacman -S compton
+open_with h
+find
+open_with unzip
+wq
+search модели
+search 
+mkdir modeling
+mv modeling
+shell mv моделирование.rar modeling/
+shell cd modeling
+open_with kkk
+search model
+open_with wps
+open_with unrar
+open_with unrar x
+open_with 
+open_with mupdf
+shell sudo pacman -S mudpf
+
+shell sudo pacman -S colourpaint
+mkdir 
+open_with s -la

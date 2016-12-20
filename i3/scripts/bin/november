@@ -115,7 +115,7 @@ case $1 in
         fi
         ;;
     selection)
-        maim -i $(xdotool getactivewindow) -s $file
+        maim -s $file -i $(xdotool getwindowfocus)
         code=$?
         if $selection_shadow; then
             shadow $file

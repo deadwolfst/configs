@@ -1,10 +1,81 @@
 [Compositing]
+AnimationSpeed=3
+Backend=OpenGL
+Enabled=false
+GLColorCorrection=false
+GLCore=false
+GLPreferBufferSwap=a
+GLTextureFilter=2
+HiddenPreviews=5
 OpenGLIsUnsafe=false
+WindowsBlockCompositing=true
+XRenderSmoothScale=false
 
 [Desktops]
 Number=1
+Rows=1
+
+[Effect-Zoom]
+InitialZoom=1
+
+[MouseBindings]
+CommandActiveTitlebar1=Raise
+CommandActiveTitlebar2=Start window tab drag
+CommandActiveTitlebar3=Operations menu
+CommandAll1=Move
+CommandAll2=Toggle raise and lower
+CommandAll3=Resize
+CommandAllKey=Alt
+CommandAllWheel=Nothing
+CommandInactiveTitlebar1=Activate and raise
+CommandInactiveTitlebar2=Start window tab drag
+CommandInactiveTitlebar3=Operations menu
+CommandTitlebarWheel=Switch to Window Tab to the Left/Right
+CommandWindow1=Activate, raise and pass click
+CommandWindow2=Activate and pass click
+CommandWindow3=Activate and pass click
+CommandWindowWheel=Scroll
+
+[Plugins]
+cubeslideEnabled=false
+desktopchangeosdEnabled=false
+kwin4_effect_fadedesktopEnabled=false
+slideEnabled=false
+windowgeometryEnabled=false
+
+[Script-desktopchangeosd]
+PopupHideDelay=1000
+TextOnly=false
 
 [TabBox]
 DesktopLayout=org.kde.breeze.desktop
 DesktopListLayout=org.kde.breeze.desktop
 LayoutName=org.kde.breeze.desktop
+
+[Windows]
+ActiveMouseScreen=true
+AutoRaise=false
+AutoRaiseInterval=750
+AutogroupInForeground=true
+AutogroupSimilarWindows=false
+BorderSnapZone=10
+CenterSnapZone=0
+ClickRaise=true
+DelayFocusInterval=0
+FocusPolicy=FocusFollowsMouse
+FocusStealingPreventionLevel=1
+GeometryTip=false
+HideUtilityWindowsForInactive=true
+InactiveTabsSkipTaskbar=false
+MaximizeButtonLeftClickCommand=Maximize
+MaximizeButtonMiddleClickCommand=Maximize (vertical only)
+MaximizeButtonRightClickCommand=Maximize (horizontal only)
+NextFocusPrefersMouse=true
+Placement=Smart
+RollOverDesktops=true
+SeparateScreenFocus=false
+ShadeHover=false
+ShadeHoverInterval=250
+SnapOnlyWhenOverlapping=false
+TitlebarDoubleClickCommand=Maximize
+WindowSnapZone=10

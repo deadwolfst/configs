@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorQtVersions>
-<!-- Written by QtCreator 4.1.0, 2016-12-09T01:01:20. -->
+<!-- Written by QtCreator 4.2.0, 2016-12-20T11:30:48. -->
 <qtcreator>
  <data>
   <variable>QtVersion.0</variable>
@@ -18,6 +18,16 @@
    <value type="int" key="Id">3</value>
    <value type="QString" key="Name">Qt %{Qt:Version} (android_armv7)</value>
    <value type="QString" key="QMakePath">/home/kirill/Qt5.7.0/5.7/android_armv7/bin/qmake</value>
+   <value type="QString" key="QtVersion.Type">Qt4ProjectManager.QtVersion.Android</value>
+   <value type="bool" key="isAutodetected">false</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>QtVersion.2</variable>
+  <valuemap type="QVariantMap">
+   <value type="int" key="Id">4</value>
+   <value type="QString" key="Name">Qt %{Qt:Version} (android_armv7)</value>
+   <value type="QString" key="QMakePath">/home/whobscr/Qt5.7.1/5.7/android_armv7/bin/qmake</value>
    <value type="QString" key="QtVersion.Type">Qt4ProjectManager.QtVersion.Android</value>
    <value type="bool" key="isAutodetected">false</value>
   </valuemap>

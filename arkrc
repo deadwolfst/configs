@@ -1,0 +1,17 @@
+[ExtractDialog]
+DirHistory[$e]=$HOME/bin/
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME,file:$HOME
+Recent URLs[$e]=file:$HOME/bin/
+
+[MainWindow]
+Height 1080=538
+State=AAAA/wAAAAD9AAAAAAAAA74AAAG9AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1920=958
+splitterSizes=636,318
+
+[Recent Files]
+File1[$e]=$HOME/Downloads/tsetup.0.10.19.tar.xz
+Name1[$e]=tsetup.0.10.19.tar.xz

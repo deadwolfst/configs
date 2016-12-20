@@ -1,0 +1,27 @@
+[General]
+confirmLogout=true
+excludeApps=
+loginMode=default
+offerShutdown=true
+screenCount=1
+shutdownType=0
+
+[LegacySession: saved at previous logout]
+clientMachine1=localhost
+command1=termite
+count=1
+
+[Session: saved at previous logout]
+clientId1=10142dfd8e0000148184360000000031470000
+clientId2=10142dfd8e0000148179088200000013020006
+count=2
+program1=pulseaudio
+program2=/usr/lib/org_kde_powerdevil
+restartCommand1=
+restartCommand2=/usr/lib/org_kde_powerdevil,-session,10142dfd8e0000148179088200000013020006_1481844047_646748
+restartStyleHint1=0
+restartStyleHint2=0
+userId1=whobscr
+userId2=whobscr
+wasWm1=false
+wasWm2=false

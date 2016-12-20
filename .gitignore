@@ -8,3 +8,7 @@ vivaldi/*
 wine/*
 VirtualBox/*
 QtProject/qtcreator/qbs/*
+*.hi
+*.o
+*.errors
+*.out

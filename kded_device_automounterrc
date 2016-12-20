@@ -5,7 +5,7 @@ LastSeenMounted=false
 
 [Devices][/org/freedesktop/UDisks2/block_devices/sda12]
 Icon=drive-harddisk
-LastNameSeen=326.0 MiB Hard Drive
+LastNameSeen=326,0 MiB Hard Drive
 LastSeenMounted=false
 
 [Devices][/org/freedesktop/UDisks2/block_devices/sda2]
@@ -16,10 +16,11 @@ LastSeenMounted=true
 
 [Devices][/org/freedesktop/UDisks2/block_devices/sda3]
 Icon=drive-harddisk
-LastNameSeen=35.7 GiB Hard Drive
+LastNameSeen=35,7 GiB Hard Drive
 LastSeenMounted=false
 
 [Devices][/org/freedesktop/UDisks2/block_devices/sda4]
+EverMounted=true
 Icon=drive-harddisk
 LastNameSeen=newArch
 LastSeenMounted=false
@@ -42,11 +43,17 @@ LastSeenMounted=true
 
 [Devices][/org/freedesktop/UDisks2/block_devices/sda8]
 Icon=drive-harddisk
-LastNameSeen=35.8 GiB Hard Drive
+LastNameSeen=35,8 GiB Hard Drive
 LastSeenMounted=false
 
 [Devices][/org/freedesktop/UDisks2/block_devices/sda9]
 EverMounted=true
 Icon=drive-harddisk
-LastNameSeen=15.4 GiB Hard Drive
+LastNameSeen=15,4 GiB Hard Drive
 LastSeenMounted=true
+
+[Devices][/org/freedesktop/UDisks2/block_devices/sdb1]
+EverMounted=true
+Icon=drive-removable-media-usb
+LastNameSeen=ARCH_201610
+LastSeenMounted=false

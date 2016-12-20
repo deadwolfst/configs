@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorSession>
-<!-- Written by QtCreator 4.1.0, 2016-12-08T13:55:33. -->
+<!-- Written by QtCreator 4.2.0, 2016-12-20T11:35:48. -->
 <qtcreator>
  <data>
   <variable>CascadeSetActive</variable>
@@ -12,7 +12,7 @@
  </data>
  <data>
   <variable>EditorSettings</variable>
-  <value type="QByteArray">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bwBpAGQALQBzAG8AdQByAGMAZQBzAC8AQQBuAGQAcgBvAGkAZABNAGEAbgBpAGYAZQBzAHQALgB4AG0AbAAAACYAQQBuAGQAcgBvAGkAZABNAGEAbgBpAGYAZQBzAHQALgB4AG0AbAAAABRDb3JlLlBsYWluVGV4dEVkaXRvcgAAAKQALwBoAG8AbQBlAC8AawBpAHIAaQBsAGwALwBjAGwAbwB1AGQALwBEAG8AYwB1AG0AZQBuAHQAcwAvAFAAcgBvAGoAZQBjAHQAcwAvAEoAbwBiAC8AbQBpAGEAbQBvAC8AbQBpAGEAbQBvAC8AYQBuAGQAcgBvAGkAZAAtAHMAbwB1AHIAYwBlAHMALwBiAHUAaQBsAGQALgBnAHIAYQBkAGwAZQAAABgAYgB1AGkAbABkAC4AZwByAGEAZABsAGUAAAAUQ29yZS5QbGFpblRleHRFZGl0b3IAAAD8AC8AaABvAG0AZQAvAGsAaQByAGkAbABsAC8AYwBsAG8AdQBkAC8ARABvAGMAdQBtAGUAbgB0AHMALwBQAHIAbwBqAGUAYwB0AHMALwBKAG8AYgAvAG0AaQBhAG0AbwAvAG0AaQBhAG0AbwAvAHYAZQBuAGQAbwByAC8AYwBvAG0ALwBnAGkAdABoAHUAYgAvAGIAZQBuAGwAYQB1AC8AcQB1AGkAYwBrAGEAbgBkAHIAbwBpAGQALwBqAGEAdgBhAC8AcQB1AGkAYwBrAGEAbgBkAHIAbwBpAGQALwBJAG0AYQBnAGUAUABpAGMAawBlAHIALgBqAGEAdgBhAAAAIABJAG0AYQBnAGUAUABpAGMAawBlAHIALgBqAGEAdgBhAAAAC2phdmEuZWRpdG9yAAABHAAvAGgAbwBtAGUALwBrAGkAcgBpAGwAbAAvAGMAbABvAHUAZAAvAEQAbwBjAHUAbQBlAG4AdABzAC8AUAByAG8AagBlAGMAdABzAC8ASgBvAGIALwBtAGkAYQBtAG8ALwBtAGkAYQBtAG8ALwB2AGUAbgBkAG8AcgAvAGMAbwBtAC8AZwBpAHQAaAB1AGIALwBiAGUAbgBsAGEAdQAvAHEAdQBpAGMAawBhAG4AZAByAG8AaQBkAC8AagBhAHYAYQAvAHEAdQBpAGMAawBhAG4AZAByAG8AaQBkAC8ATQB5AEYAaQByAGUAYgBhAHMAZQBJAG4AcwB0AGEAbgBjAGUASQBEAFMAZQByAHYAaQBjAGUALgBqAGEAdgBhAAAAQABNAHkARgBpAHIAZQBiAGEAcwBlAEkAbgBzAHQAYQBuAGMAZQBJAEQAUwBlAHIAdgBpAGMAZQAuAGoAYQB2AGEAAAALamF2YS5lZGl0b3IAAAEaAC8AaABvAG0AZQAvAGsAaQByAGkAbABsAC8AYwBsAG8AdQBkAC8ARABvAGMAdQBtAGUAbgB0AHMALwBQAHIAbwBqAGUAYwB0AHMALwBKAG8AYgAvAG0AaQBhAG0AbwAvAG0AaQBhAG0AbwAvAHYAZQBuAGQAbwByAC8AYwBvAG0ALwBnAGkAdABoAHUAYgAvAGIAZQBuAGwAYQB1AC8AcQB1AGkAYwBrAGEAbgBkAHIAbwBpAGQALwBqAGEAdgBhAC8AcQB1AGkAYwBrAGEAbgBkAHIAbwBpAGQALwBNAHkARgBpAHIAZQBiAGEAcwBlAE0AZQBzAHMAYQBnAGkAbgBnAFMAZQByAHYAaQBjAGUALgBqAGEAdgBhAAAAPgBNAHkARgBpAHIAZQBiAGEAcwBlAE0AZQBzAHMAYQBnAGkAbgBnAFMAZQByAHYAaQBjAGUALgBqAGEAdgBhAAAAC2phdmEuZWRpdG9yAAABDgAvAGgAbwBtAGUALwBrAGkAcgBpAGwAbAAvAGMAbABvAHUAZAAvAEQAbwBjAHUAbQBlAG4AdABzAC8AUAByAG8AagBlAGMAdABzAC8ASgBvAGIALwBtAGkAYQBtAG8ALwBtAGkAYQBtAG8ALwB2AGUAbgBkAG8AcgAvAGMAbwBtAC8AZwBpAHQAaAB1AGIALwBiAGUAbgBsAGEAdQAvAHEAdQBpAGMAawBhAG4AZAByAG8AaQBkAC8AagBhAHYAYQAvAHEAdQBpAGMAawBhAG4AZAByAG8AaQBkAC8AUQB1AGkAYwBrAEEAbgBkAHIAbwBpAGQAQQBjAHQAaQB2AGkAdAB5AC4AagBhAHYAYQAAADIAUQB1AGkAYwBrAEEAbgBkAHIAbwBpAGQAQQBjAHQAaQB2AGkAdAB5AC4AagBhAHYAYQAAAAtqYXZhLmVkaXRvcgAAAWcAAAANY3VycmVudGVkaXRvcgAAARwALwBoAG8AbQBlAC8AawBpAHIAaQBsAGwALwBjAGwAbwB1AGQALwBEAG8AYwB1AG0AZQBuAHQAcwAvAFAAcgBvAGoAZQBjAHQAcwAvAEoAbwBiAC8AbQBpAGEAbQBvAC8AbQBpAGEAbQBvAC8AdgBlAG4AZABvAHIALwBjAG8AbQAvAGcAaQB0AGgAdQBiAC8AYgBlAG4AbABhAHUALwBxAHUAaQBjAGsAYQBuAGQAcgBvAGkAZAAvAGoAYQB2AGEALwBxAHUAaQBjAGsAYQBuAGQAcgBvAGkAZAAvAE0AeQBGAGkAcgBlAGIAYQBzAGUASQBuAHMAdABhAG4AYwBlAEkARABTAGUAcgB2AGkAYwBlAC4AagBhAHYAYQAAABYAagBhAHYAYQAuAGUAZABpAHQAbwByAAAAGAAAAAEAAAAFAAAAAAAAABIAAAAFAAAAAA==</value>
+  <value type="QByteArray">AAAAD0VkaXRvck1hbmFnZXJWNAAAAAAAAAAAAAAACQAAAAVlbXB0eQ==</value>
  </data>
  <data>
   <variable>ProjectDependencies</variable>
@@ -21,12 +21,12 @@
  <data>
   <variable>ProjectList</variable>
   <valuelist type="QVariantList">
-   <value type="QString">/home/kirill/cloud/Documents/Projects/Job/miamo/miamo/miamo.pro</value>
+   <value type="QString">/home/whobscr/cloud/Documents/Projects/Job/miamo/miamo/miamo.pro</value>
   </valuelist>
  </data>
  <data>
   <variable>StartupProject</variable>
-  <value type="QString">/home/kirill/cloud/Documents/Projects/Job/miamo/miamo/miamo.pro</value>
+  <value type="QString">/home/whobscr/cloud/Documents/Projects/Job/miamo/miamo/miamo.pro</value>
  </data>
  <data>
   <variable>value-ActiveMode</variable>
@@ -52,40 +52,8 @@
     <value type="QString">session</value>
    </valuelist>
    <valuelist type="QVariantList">
-    <value type="QString">/home/kirill/cloud/Documents/Projects/Job/miamo/miamo/miamo.pro</value>
+    <value type="QString">/home/whobscr/cloud/Documents/Projects/Job/miamo/miamo/miamo.pro</value>
     <value type="QString">miamo</value>
-   </valuelist>
-   <valuelist type="QVariantList">
-    <value type="QString">/home/kirill/cloud/Documents/Projects/Job/miamo/miamo/vendor/com/github/benlau/quickandroid/quickandroid.pri</value>
-    <value type="QString">quickandroid</value>
-   </valuelist>
-   <valuelist type="QVariantList">
-    <value type="QString">/home/kirill/cloud/Documents/Projects/Job/miamo/miamo/vendor/com/github/benlau/quickandroid</value>
-    <value type="QString">Other files</value>
-   </valuelist>
-   <valuelist type="QVariantList">
-    <value type="QString">/home/kirill/cloud/Documents/Projects/Job/miamo/miamo/vendor/com/github/benlau/quickandroid/java/quickandroid</value>
-    <value type="QString">java/quickandroid</value>
-   </valuelist>
-   <valuelist type="QVariantList">
-    <value type="QString">/home/kirill/cloud/Documents/Projects/Job/miamo/miamo</value>
-    <value type="QString">Resources</value>
-   </valuelist>
-   <valuelist type="QVariantList">
-    <value type="QString">/home/kirill/cloud/Documents/Projects/Job/miamo/miamo/qml.qrc</value>
-    <value type="QString">qml.qrc</value>
-   </valuelist>
-   <valuelist type="QVariantList">
-    <value type="QString">/home/kirill/cloud/Documents/Projects/Job/miamo/miamo/qml.qrc//</value>
-    <value type="QString">/</value>
-   </valuelist>
-   <valuelist type="QVariantList">
-    <value type="QString">/home/kirill/cloud/Documents/Projects/Job/miamo/miamo</value>
-    <value type="QString">Other files</value>
-   </valuelist>
-   <valuelist type="QVariantList">
-    <value type="QString">/home/kirill/cloud/Documents/Projects/Job/miamo/miamo/android-sources</value>
-    <value type="QString">android-sources</value>
    </valuelist>
   </valuelist>
  </data>
