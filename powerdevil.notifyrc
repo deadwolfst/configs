@@ -1,0 +1,21 @@
+[Event/fullbattery]
+Execute=
+Logfile=
+TTS=
+
+[Event/lowbattery]
+Action=Sound|Execute
+Execute=/usr/bin/notify-send 'Your battery has reached low level' 'Please plug in the charger'
+Logfile=
+TTS=
+
+[Event/lowperipheralbattery]
+Execute=
+Logfile=
+TTS=
+
+[Event/pluggedin]
+Action=
+Execute=
+Logfile=
+TTS=

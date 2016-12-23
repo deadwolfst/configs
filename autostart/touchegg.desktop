@@ -1,7 +1,7 @@
 [Desktop Entry]
 Comment[en_US]=
 Comment=
-Exec=sleep 3 ; Telegram\s
+Exec=sleep 3 ; touchegg
 GenericName[en_US]=
 GenericName=
 Icon=system-run

@@ -1,9 +1,10 @@
 [Desktop Entry]
 Comment[en_US]=
 Comment=
-Exec=sleep 3 ; Telegram\s
+Exec=sleep 4; nohup stalonetray
 GenericName[en_US]=
 GenericName=
+Hidden=true
 Icon=system-run
 MimeType=
 Name[en_US]=

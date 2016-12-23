@@ -39,7 +39,7 @@ then
                     #elif [[  $bars = '*' ]]; then quality=25; color="#FF0000";
                     #fi
                     #echo $bars
-                    result+="^r(10x$(( $quality/(70/$barheight) ))) $netname"
+                    result+="^r(10x$(( $quality/(70/$barheight) ))) $(echo $netname | cut -c 1-8 )"
             else
                     result+="$nettype $netname"
             fi

@@ -1,9 +1,10 @@
 [Desktop Entry]
 Comment[en_US]=
 Comment=
-Exec=sleep 3 ; Telegram\s
+Exec=dunst
 GenericName[en_US]=
 GenericName=
+Hidden=false
 Icon=system-run
 MimeType=
 Name[en_US]=

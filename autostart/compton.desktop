@@ -1,7 +1,7 @@
 [Desktop Entry]
 Comment[en_US]=
 Comment=
-Exec=sleep 3 ; Telegram\s
+Exec=compton -b
 GenericName[en_US]=
 GenericName=
 Icon=system-run

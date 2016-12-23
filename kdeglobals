@@ -109,15 +109,15 @@ ForegroundPositive=39,174,96
 ForegroundVisited=127,140,141
 
 [DirSelect Dialog]
-DirSelectDialog Size=1121,751
-History Items[$e]=file:$HOME/cloud/Documents/Projects,file:$HOME/cloud/Documents/Projects
+DirSelectDialog Size=1103,733
+History Items[$e]=file:$HOME/cloud/Documents/Projects/build-testvpapp-Desktop-Debug,file:///storage/i3arch/kirill/VirtualBox VMs,file:$HOME/cloud/Documents/Projects,file:$HOME/cloud/Documents/Projects
 
 [General]
 BrowserApplication[$e]=vivaldi-stable.desktop
 ColorScheme=Breeze Dark
 Name=Breeze Dark
 TerminalApplication[$e]=termite
-dbfile=/home/kirill/.mozilla/firefox/rlq1dmy2.default/places.sqlite
+dbfile=/storage/i3arch/kirill/.mozilla/firefox/rlq1dmy2.default/places.sqlite
 fixed=Droid Sans Mono,10,-1,0,50,0,0,0,0,0
 font=Noto Sans,10,-1,5,50,0,0,0,0,0
 menuFont=Noto Sans,10,-1,5,50,0,0,0,0,0
@@ -132,6 +132,7 @@ Theme=breeze-dark
 [KDE]
 ColorScheme=Breeze
 LookAndFeelPackage=org.kde.breezedark.desktop
+ShowDeleteCommand=false
 ShowIconsInMenuItems=true
 ShowIconsOnPushButtons=true
 contrast=4
@@ -158,7 +159,10 @@ detailedViewIconSize=0
 listViewIconSize=0
 
 [KShortcutsDialog Settings]
-Dialog Size=600,480
+Dialog Size=627,836
+
+[PreviewSettings]
+MaximumRemoteSize=0
 
 [Toolbar style]
 ToolButtonStyle=TextBesideIcon

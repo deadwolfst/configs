@@ -28,6 +28,7 @@ import qualified Data.Map as M
 {-
  - The folowing programs used in this config:
  -  dzen2
+ -  stalonetray
  -  conky
  -  termite
  -  TelegramDesktop
@@ -36,6 +37,9 @@ import qualified Data.Map as M
  -  compton
  -  touchegg
  -  dunst
+ -  systemdgenie
+ -  amixer
+ -  kvkbd
  -}
 
 myModMask = mod4Mask
@@ -60,8 +64,9 @@ myBatteryBar = myBattery ++ " | " ++ myBarName ++ " -w '" ++ show dzen2Width
 myStatusBar = "conky -c ~/.xmonad/bar/conky_dzen.conf | " ++ myBarName ++
                             "-x '" ++ show (dzen1Width + dzen2Width) ++
                             "' -w '" ++ show (1920 - dzen1Width - dzen2Width) ++
-                            "' -ta 'r' " ++ dzenBarOptions
-sleepCom = "sleep 3 && "
+                            "' -ta 'l' " ++ dzenBarOptions
+sleepDuration = 3
+sleepCom = "sleep " ++ show sleepDuration ++ " && "
 myBitmapsDir = "~/.xmonad/bar/images"
 focusedWindowBorder = "#1c8e5f"
 normalWindowBorder = "#000000"
@@ -125,6 +130,7 @@ kdeBaseConfig = kdeConfig {
         `additionalKeysP`
                 [ ("<XF86AudioRaiseVolume>", spawn "amixer sset Master 5%+") 
                 , ("<XF86AudioLowerVolume>", spawn "amixer sset Master 5%-") 
+                , ("<XF86AudioMute>", spawn "amixer sset Master toggle") 
                 , ("<Print>", spawn "november screen") 
                 , ("S-<Print>", spawn "november selection") 
                 ]
@@ -132,8 +138,9 @@ kdeBaseConfig = kdeConfig {
 	            [ ((modm .|. shiftMask, xK_q), kill)
                     , ((modm .|. shiftMask, xK_r), broadcastMessage ReleaseResources >> restart "xmonad" True)
                     , ((modm .|. shiftMask, xK_x), spawn "qdbus org.kde.ksmserver /KSMServer logout 0 0 0")
-                    , ((modm,               xK_d), spawn "dmenu_run -dim 0.5 -h 20 -p whobscr$ -fn 'Droid Sans Mono 14' -sb '#1c8e5f' -nb '#166f5f' -nf '#969896' -i")
+                    -- , ((modm,               xK_d), spawn "dmenu_run -dim 0.5 -h 20 -p whobscr$ -fn 'Droid Sans Mono 14' -sb '#1c8e5f' -nb '#166f5f' -nf '#969896' -i")
                     , ((modm,               xK_s), spawn "systemsettings5")
+                    , ((modm,               xK_g), spawn "systemdgenie")
                     , ((modm,               xK_f ), sendMessage NextLayout)
                     , ((modm,               xK_i), nextWS)
                     , ((modm,               xK_u), prevWS)
@@ -154,34 +161,29 @@ shutdownHook e = do
 main = do
     spawn $ "pkill " ++ myBarName
     spawn $ "pkill conky"
-    spawn $ "pkill dunst"
     spawn $ "pkill i3status"
-    spawn $ "touchegg"
+    spawn $ "pkill stalonetray"
+    {-
+    spawn $ "pkill touchegg"
+    spawn $ "pkill dunst"
     spawn $ "dunst"
+    spawn $ "kvkbd"
     spawn $ "compton -b"
+    spawn $ "touchegg"
+    -}
+    spawn $ "sleep " ++ show (sleepDuration + 1) ++ "; stalonetray"
     spawn $ setupKeyboardLayout
     spawn $ sleepCom ++ myBatteryBar
-    --ewmhDesktopsStartup
     dzenLeftBar <- spawnPipe $ sleepCom ++ myXmonadBar
     spawn $ sleepCom ++ myStatusBar
-    --handle shutdownHook
     xmonad $ ewmh kdeBaseConfig
         { manageHook =      manageHook kdeConfig  <+> manageDocks <+> myManageHook
         , layoutHook =      gaps [(D,18)] . smartSpacing 2 $ tall ||| Full
+        , logHook =         myLogHook dzenLeftBar -- >> fadeInactiveLogHook 0xdddddddd
         , handleEventHook = handleEventHook kdeConfig
                         <+> docksEventHook
                         <+> fullscreenEventHook
                         <+> ewmhDesktopsEventHook
-                        {-
-         , shutdownHook = do
-                      appendFile "~/.logs/xmonad" "helhellhelhelhelhelhelhelhel exiting"
-                      spawn $ "pkill " ++ myBarName
-                      spawn $ "pkill conky"
-                      spawn $ "pkill dunst"
-                      spawn $ "pkill i3status"
-                      
-                      -}
-        , logHook =         myLogHook dzenLeftBar -- >> fadeInactiveLogHook 0xdddddddd
     }
                    
 
@@ -191,6 +193,7 @@ myManageHook = composeAll . concat $
 		, [ className   =? c --> doF (W.shift "1") | c <- webApps]
 		, [ className   =? c --> doF (W.shift "2") | c <- terminals]
 		, [ className   =? c --> doF (W.shift "3") | c <- ides]
+		, [ className   =? c --> doF (W.shift "4") | c <- ides2]
 		, [ className   =? c --> doF (W.shift "9") | c <- messaging]
 		]
 	where floatsByClass = [ "yakuake"
@@ -215,6 +218,8 @@ myManageHook = composeAll . concat $
               ides = [ "QtCreator"
                      , "jetbrains-idea"
                      ]
+              ides2 = ["jetbrains-phpstorm"
+                      ]
               terminals = [ "Termite"
                           ]
               messaging = [ "TelegramDesktop"

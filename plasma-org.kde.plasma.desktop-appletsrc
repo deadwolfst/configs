@@ -20,16 +20,44 @@ location=0
 plugin=org.kde.desktopcontainment
 wallpaperplugin=org.kde.image
 
+[Containments][1][Applets][2][Configuration][General]
+favoriteApps=preferred://browser,systemsettings.desktop,org.kde.dolphin.desktop
+
+[Containments][1][Applets][3]
+immutability=1
+plugin=org.kde.plasma.kickerdash
+
+[Containments][1][Applets][3][Configuration][ConfigDialog]
+DialogHeight=538
+DialogWidth=718
+
+[Containments][1][Applets][3][Configuration][General]
+favoriteApps=preferred://browser,systemsettings.desktop,org.kde.dolphin.desktop,jetbrains-phpstorm.desktop,kde4-kvkbd.desktop,jetbrains-idea.desktop,DigiaQt-qtcreator-community.desktop,telegramdesktop.desktop,termite.desktop,virtualbox.desktop
+
+[Containments][1][Applets][3][Shortcuts]
+global=Meta+D
+
+[Containments][1][Applets][39][Configuration][General]
+favoriteApps=preferred://browser,systemsettings.desktop,org.kde.dolphin.desktop
+
 [Containments][1][ConfigDialog]
 DialogHeight=538
 DialogWidth=718
 
 [Containments][1][General]
+ItemsGeometries=Applet-3:0,0,112,96,0;
 ToolBoxButtonState=left
-ToolBoxButtonX=4
-ToolBoxButtonY=994
+ToolBoxButtonY=555
 
 [Containments][1][Wallpaper][org.kde.image][General]
 Image=file:///home/whobscr/cloud/Documents/Wallpapers/Notre_Dame_de_Paris.jpg
 height=1080
 width=1920
+
+[Containments][13][General]
+extraItems=org.kde.plasma.devicenotifier,org.kde.plasma.clipboard,org.kde.plasma.networkmanagement,org.kde.plasma.battery,org.kde.plasma.mediacontroller,org.kde.plasma.bluetooth,org.kde.plasma.volume,org.kde.plasma.notifications
+knownItems=org.kde.plasma.devicenotifier,org.kde.plasma.clipboard,org.kde.plasma.networkmanagement,org.kde.plasma.battery,org.kde.plasma.mediacontroller,org.kde.plasma.bluetooth,org.kde.plasma.volume,org.kde.plasma.notifications
+
+[Containments][5][General]
+extraItems=org.kde.plasma.devicenotifier,org.kde.plasma.clipboard,org.kde.plasma.networkmanagement,org.kde.plasma.battery,org.kde.plasma.mediacontroller,org.kde.plasma.bluetooth,org.kde.plasma.volume,org.kde.plasma.notifications
+knownItems=org.kde.plasma.devicenotifier,org.kde.plasma.clipboard,org.kde.plasma.networkmanagement,org.kde.plasma.battery,org.kde.plasma.mediacontroller,org.kde.plasma.bluetooth,org.kde.plasma.volume,org.kde.plasma.notifications

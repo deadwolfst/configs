@@ -7,15 +7,15 @@ Recent Files[$e]=.csync_journal.db,file:$HOME/cloud/Documents/Wallpapers/Notre_D
 Recent URLs[$e]=file:$HOME/cloud/,file:$HOME/cloud/Documents/Wallpapers/,file:$HOME/cloud/Documents/
 
 [KPropertiesDialog]
-Height 1080=430
-Width 1920=406
+Height 1080=428
+Width 1920=404
 
 [MainWindow]
-Height 1080=757
+Height 1080=729
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAAA54AAALQAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAABYAAAAK0AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
-Width 1920=926
+Width 1920=1408
 
 [Notification Messages]
 FontSettingsChanged=false
@@ -23,7 +23,7 @@ LanguageChangesApplyOnlyToNewlyStartedPrograms=false
 
 [Open-with settings]
 CompletionMode=5
-History=bash -c "sleep 10 && termite" &,sleep 5 && Telegram,sleep 5; termite,sleep 5; Telegram,sleep 5;termite,sleep 5;Telegram,sleep 1;termite,vivaldi-stable,termite,Telegram,/usr/bin/vivaldi-stable %U
+History=stalonetray,compton,kvkbd,dunst,touchegg,bash -c "sleep 10 && termite" &,sleep 5 && Telegram,sleep 5; termite,sleep 5; Telegram,sleep 5;termite,sleep 5;Telegram,sleep 1;termite,vivaldi-stable,termite,Telegram
 
 [PlasmaRunnerManager]
 LaunchCounts=

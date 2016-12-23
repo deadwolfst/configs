@@ -1,7 +1,7 @@
 [FileDialogSize]
-Height 1080=751
-Width 1920=1121
+Height 1080=719
+Width 1920=1089
 
 [KFileDialog Settings]
-Recent Files[$e]=miamo.pro,file:$HOME/Qt5.7.1/5.7/android_armv7/bin/qmake,file:$HOME/cloud/Documents/Projects/Job/miamo/miamo/miamo.pro
-Recent URLs[$e]=file:$HOME/cloud/Documents/Projects/Job/miamo/miamo/,file:$HOME/Qt5.7.1/5.7/android_armv7/bin/,file:$HOME/Qt5.7.1/5.7/android_armv7/,file:$HOME/Qt5.7.1/5.7/,file:$HOME/Qt5.7.1/
+Recent Files[$e]=file:$HOME/cloud/Documents/Projects/Job/miamo/miamo/miamo.pro,file:$HOME/cloud/Documents/Projects/Job/miamo/miamo/assets/exit.png,file:$HOME/cloud/Documents/Projects/Job/miamo/miamo/assets/share.png,file:$HOME/cloud/Documents/Projects/Job/miamo/miamo/assets/message.png,file:$HOME/cloud/Documents/Projects/Job/miamo/miamo/assets/logo.png,file:$HOME/cloud/Documents/Projects/Job/miamo/miamo/assets/background.png,file:$HOME/cloud/Documents/Projects/build-testvpapp-Desktop-Debug/news/news.pro,miamo.pro,file:$HOME/cloud/Documents/Projects/Job/miamo/quickandroid/examples/quickandroidexample/quickandroidexample.pro,file:$HOME/cloud/Documents/Projects/Job/miamo/miamo/vendor/com/github/benlau/quickandroid/examples/quickandroidexample/quickandroidexample.pro,file:$HOME/cloud/Documents/Projects/Job/miamo/openssl/OpenSSL-for-Android-Prebuilt/openssl-1.0.2/armeabi-v7a/lib/libssl.so,file:$HOME/cloud/Documents/Projects/Job/miamo/openssl/OpenSSL-for-Android-Prebuilt/openssl-1.0.2/armeabi-v7a/lib/libcrypto.so,file:$HOME/cloud/Documents/Projects/Job/miamo/miamo/android-sources/google-services.json,file:$HOME/Qt5.7.1/5.7/android_armv7/bin/qmake
+Recent URLs[$e]=file:$HOME/cloud/Documents/Projects/Job/miamo/openssl/OpenSSL-for-Android-Prebuilt/openssl-1.0.2/armeabi-v7a/lib/,file:$HOME/cloud/Documents/Projects/Job/miamo/miamo/vendor/com/github/benlau/quickandroid/examples/quickandroidexample/,file:$HOME/cloud/Documents/Projects/Job/miamo/quickandroid/examples/quickandroidexample/,file:$HOME/cloud/Documents/Projects/Job/miamo/miamo/,file:$HOME/cloud/Documents/Projects/build-testvpapp-Desktop-Debug/news/,file:$HOME/cloud/Documents/Projects/Job/miamo/miamo/assets/

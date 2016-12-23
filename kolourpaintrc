@@ -3,26 +3,26 @@ Forced MimeType=image/png
 Forced Quality=75
 
 [FileDialogSize]
-Height 1080=478
-Width 1920=638
+Height 1080=474
+Width 1920=634
 
 [General Settings]
 Color Similarity=0
 First Time=false
-Last Document Size=625,229
+Last Document Size=380,466
 Open Images in the Same Window=false
 
 [KFileDialog Settings]
 Height 1080=538
-Recent Files[$e]=file:$HOME/cloud/Documents/Univer/modeling/hw2scheme.png,file:$HOME/cloud/Documents/Univer/modeling/model2.png,file:$HOME/cloud/Documents/Univer/modeling/mark2.png
-Recent URLs[$e]=file:$HOME/cloud/Documents/Univer/modeling/,file:$HOME/cloud/Documents/Univer/databases/courcework2/,file:$HOME/cloud/Documents/Projects/Job/miamo/miamo/assets/,file:$HOME/Downloads/,file:$HOME/.xmonad/bar/images/,file:$HOME/cloud/Documents/Univer/
+Recent Files[$e]=file:$HOME/Pictures/happyGuy.png,file:$HOME/Pictures/screenshots/ss_20161221_123229.png,file:$HOME/Pictures/screenshots/ss_20161221_123055.png,file:$HOME/cloud/Documents/Univer/modeling/model2.png,file:$HOME/cloud/Documents/Univer/modeling/mark2.png
+Recent URLs[$e]=file:$HOME/cloud/Documents/Projects/Job/miamo/miamo/assets/,file:$HOME/Downloads/,file:$HOME/.xmonad/bar/images/,file:$HOME/cloud/Documents/Univer/,file:$HOME/Pictures/,file:$HOME/Pictures/screenshots/
 Width 1920=958
 
 [MainWindow]
-Height 1080=260
-State=AAAA/wAAAAD9AAAAAQAAAAMAAAN2AAAAZPwBAAAAAfsAAAASAEMAbwBsAG8AcgAgAEIAbwB4AQAAAEQAAAN2AAACDQD///8AAAN2AAAARgAAAAQAAAAEAAAAAQAAAAL8AAAAAgAAAAAAAAABAAAAEABUAG8AbwBsACAAQgBvAHgDAAAAAP////8AAAAAAAAAAAAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAABYAdABlAHgAdABUAG8AbwBsAEIAYQByAAAAAqH/////AAAAAAAAAAA=
+Height 1080=1060
+State=AAAA/wAAAAD9AAAAAQAAAAMAAAc6AAAAZPwBAAAAAfsAAAASAEMAbwBsAG8AcgAgAEIAbwB4AQAAAEQAAAc6AAACDQD///8AAAc6AAADZQAAAAQAAAAEAAAAAQAAAAL8AAAAAgAAAAAAAAABAAAAEABUAG8AbwBsACAAQgBvAHgDAAAAAP////8AAAAAAAAAAAAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAABYAdABlAHgAdABUAG8AbwBsAEIAYQByAAAAAqH/////AAAAAAAAAAA=
 ToolBarsMovable=Disabled
-Width 1920=954
+Width 1920=1918
 
 [MainWindow][Toolbar Tool Box]
 ToolButtonStyle=IconOnly
@@ -31,20 +31,6 @@ ToolButtonStyle=IconOnly
 Configurable Color Depth=image/png,image/bmp,image/x-pcx,image/x-rgb,image/x-xpixmap
 Configurable Quality Setting=image/jp2,image/jpeg,image/x-webp
 Maximum Color Depth=image/x-eps:32,image/x-portable-bitmap:1,image/x-portable-graymap:8,image/x-xbitmap:1
-
-[Recent Files]
-File1[$e]=$HOME/cloud/Documents/Projects/Job/miamo/miamo/assets/add_photo.png
-File2[$e]=$HOME/cloud/Documents/Projects/Job/miamo/miamo/assets/plus_button.png
-File3[$e]=$HOME/cloud/Documents/Univer/databases/courcework2/scheme.png
-File4[$e]=$HOME/cloud/Documents/Projects/Job/miamo/miamo/assets/change_profile.png
-File5[$e]=$HOME/.xmonad/bar/images/tall.xpm
-File6[$e]=$HOME/cloud/Documents/Univer/modeling/hw2scheme.png
-Name1[$e]=add_photo.png
-Name2[$e]=plus_button.png
-Name3[$e]=scheme.png
-Name4[$e]=change_profile.png
-Name5[$e]=tall.xpm
-Name6[$e]=hw2scheme.png
 
 [Text Settings]
 Font Size=200

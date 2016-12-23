@@ -1,10 +1,26 @@
+[Containments][21][General]
+AppletOrder=44;22;23;25;27
+
+[Containments][26][General]
+extraItems=org.kde.plasma.devicenotifier,org.kde.plasma.clipboard,org.kde.plasma.networkmanagement,org.kde.plasma.battery,org.kde.plasma.mediacontroller,org.kde.plasma.bluetooth,org.kde.plasma.volume,org.kde.plasma.notifications
+knownItems=org.kde.plasma.devicenotifier,org.kde.plasma.clipboard,org.kde.plasma.networkmanagement,org.kde.plasma.battery,org.kde.plasma.mediacontroller,org.kde.plasma.bluetooth,org.kde.plasma.volume,org.kde.plasma.notifications
+
 [Containments][7][General]
 extraItems=org.kde.plasma.devicenotifier,org.kde.plasma.clipboard,org.kde.plasma.networkmanagement,org.kde.plasma.battery,org.kde.plasma.mediacontroller,org.kde.plasma.bluetooth,org.kde.plasma.volume,org.kde.plasma.notifications
 knownItems=org.kde.plasma.devicenotifier,org.kde.plasma.clipboard,org.kde.plasma.networkmanagement,org.kde.plasma.battery,org.kde.plasma.mediacontroller,org.kde.plasma.bluetooth,org.kde.plasma.volume,org.kde.plasma.notifications
 
+[KPropertiesDialog]
+Height 1080=428
+Width 1920=417
+
 [PlasmaRunnerManager]
-LaunchCounts=1 services_systemsettings.desktop
-pluginWhiteList=services,places,shell,bookmarks,recentdocuments,locations,baloosearch
+LaunchCounts=4 services_telegramdesktop.desktop,1 services_kcmdolphinnavigation.desktop,1 services_systemsettings.desktop,1 services_DigiaQt-qtcreator-community.desktop,1 services_virtualbox.desktop,1 services_jetbrains-phpstorm.desktop,1 services_desktop.desktop
+pluginWhiteList=services,desktopsessions,PowerDevil,bookmarks,baloosearch
+
+[PlasmaViews][Panel 21][Horizontal1920]
+maxLength=1920
+minLength=1920
+thickness=36
 
 [ScreenConnectors]
 0=eDP1
