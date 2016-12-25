@@ -34,12 +34,8 @@ import qualified Data.Map as M
  -  TelegramDesktop
  -  vivaldi
  -  dmenu
- -  compton
- -  touchegg
- -  dunst
  -  systemdgenie
  -  amixer
- -  kvkbd
  -}
 
 myModMask = mod4Mask
@@ -68,7 +64,7 @@ myStatusBar = "conky -c ~/.xmonad/bar/conky_dzen.conf | " ++ myBarName ++
 sleepDuration = 3
 sleepCom = "sleep " ++ show sleepDuration ++ " && "
 myBitmapsDir = "~/.xmonad/bar/images"
-focusedWindowBorder = "#1c8e5f"
+focusedWindowBorder = "#404040"
 normalWindowBorder = "#000000"
 
 myLogHook :: Handle -> X ()

@@ -1,2 +1,5 @@
+[General]
+history=archlinux.org,archlinux.com,dmenu_run,dmenu
+
 [PlasmaRunnerManager]
 LaunchCounts=

@@ -14,15 +14,15 @@ Open Images in the Same Window=false
 
 [KFileDialog Settings]
 Height 1080=538
-Recent Files[$e]=file:$HOME/Pictures/happyGuy.png,file:$HOME/Pictures/screenshots/ss_20161221_123229.png,file:$HOME/Pictures/screenshots/ss_20161221_123055.png,file:$HOME/cloud/Documents/Univer/modeling/model2.png,file:$HOME/cloud/Documents/Univer/modeling/mark2.png
+Recent Files[$e]=file:$HOME/Pictures/happyGuy.png,file:$HOME/cloud/Documents/Projects/Job/miamo/miamo/assets/white_bell.png,file:$HOME/Pictures/screenshots/ss_20161221_123229.png,file:$HOME/Pictures/screenshots/ss_20161221_123055.png,file:$HOME/cloud/Documents/Univer/modeling/model2.png,file:$HOME/cloud/Documents/Univer/modeling/mark2.png
 Recent URLs[$e]=file:$HOME/cloud/Documents/Projects/Job/miamo/miamo/assets/,file:$HOME/Downloads/,file:$HOME/.xmonad/bar/images/,file:$HOME/cloud/Documents/Univer/,file:$HOME/Pictures/,file:$HOME/Pictures/screenshots/
 Width 1920=958
 
 [MainWindow]
-Height 1080=1060
-State=AAAA/wAAAAD9AAAAAQAAAAMAAAc6AAAAZPwBAAAAAfsAAAASAEMAbwBsAG8AcgAgAEIAbwB4AQAAAEQAAAc6AAACDQD///8AAAc6AAADZQAAAAQAAAAEAAAAAQAAAAL8AAAAAgAAAAAAAAABAAAAEABUAG8AbwBsACAAQgBvAHgDAAAAAP////8AAAAAAAAAAAAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAABYAdABlAHgAdABUAG8AbwBsAEIAYQByAAAAAqH/////AAAAAAAAAAA=
+Height 1080=348
+State=AAAA/wAAAAD9AAAAAQAAAAMAAAN2AAAAZPwBAAAAAfsAAAASAEMAbwBsAG8AcgAgAEIAbwB4AQAAAEQAAAN2AAACDQD///8AAAN2AAAAnQAAAAQAAAAEAAAAAQAAAAL8AAAAAgAAAAAAAAABAAAAEABUAG8AbwBsACAAQgBvAHgDAAAAAP////8AAAAAAAAAAAAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAABYAdABlAHgAdABUAG8AbwBsAEIAYQByAAAAAqH/////AAAAAAAAAAA=
 ToolBarsMovable=Disabled
-Width 1920=1918
+Width 1920=954
 
 [MainWindow][Toolbar Tool Box]
 ToolButtonStyle=IconOnly
@@ -32,6 +32,12 @@ Configurable Color Depth=image/png,image/bmp,image/x-pcx,image/x-rgb,image/x-xpi
 Configurable Quality Setting=image/jp2,image/jpeg,image/x-webp
 Maximum Color Depth=image/x-eps:32,image/x-portable-bitmap:1,image/x-portable-graymap:8,image/x-xbitmap:1
 
+[Recent Files]
+File1[$e]=$HOME/cloud/Documents/Projects/Job/miamo/miamo/assets/bell.png
+File2[$e]=$HOME/cloud/Documents/Projects/Job/miamo/miamo/assets/white_bell.png
+Name1[$e]=bell.png
+Name2[$e]=white_bell.png
+
 [Text Settings]
 Font Size=200
 Italic=false
@@ -39,7 +45,7 @@ Strike Thru=false
 Underline=false
 
 [Tool Settings]
-Last Used Tool=1
+Last Used Tool=8
 Tool Widget Brush Col=0
 Tool Widget Brush Row=0
 Tool Widget Eraser Size Col=0

@@ -41,8 +41,8 @@ global=Meta+D
 favoriteApps=preferred://browser,systemsettings.desktop,org.kde.dolphin.desktop
 
 [Containments][1][ConfigDialog]
-DialogHeight=538
-DialogWidth=718
+DialogHeight=536
+DialogWidth=716
 
 [Containments][1][General]
 ItemsGeometries=Applet-3:0,0,112,96,0;
